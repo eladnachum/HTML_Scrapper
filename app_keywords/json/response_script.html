@@ -1,0 +1,1585 @@
+
+		<div class="app-container container-search-ranking">
+<div class="row"><div class="col-sm-12 alert alert-warning">
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> You are in Free Trial for this app. <a href="/subscription">Upgrade</a> to unlock all paid features of ASO Solution.
+</div></div>
+							<div class="row">
+					<div class="col-sm-6">
+						<h1 class="primary-header">Keyword Graph</h1>
+					</div>
+					<div class="app-controls col-sm-6">
+						<div class="btn-date">
+							<button class="btn btn-default-alt" id="daterangepicker">
+	<i class="fa fa-calendar"></i>
+	<span></span>
+	<b class="caret"></b>
+</button>
+
+						</div>
+					</div>
+				</div>
+				<div class="search-trends-graph">
+					<div class="pull-right btn-group keyword-number-switch">
+						<a href="javascript:;" type="button" id="keyword-number-null" class="btn btn-default" data-attr-y-max=null>
+							All
+						</a>
+						<a href="javascript:;" type="button" id="keyword-number-50" class="btn btn-default" data-attr-y-max="50">
+							Top 50 Only
+						</a>
+					</div>
+					<div class="clearfix keyword-number-switch-clearfix"></div>
+					<div class="tab-container">
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<a href="#tab-app" data-toggle="tab" class="tab-switch" id="myapps-tab">My App</a>
+							</li>
+															<li>
+									<a href="#tab-competitors" data-toggle="tab" class="tab-switch" id="competitors-tab">
+										Vs. Competitors
+									</a>
+								</li>
+													</ul>
+						<div class="panel-body">
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab-app">
+									<div id="my-search-ranking-graph-iPhone" class="app-term-ranking-graph"></div>
+								</div>
+																	<div class="tab-pane" id="tab-competitors">
+										<div id="comp-search-ranking-graph-iPhone" class="app-term-ranking-graph"></div>
+									</div>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h4>
+				My Keywords
+			</h4>
+
+			<div class="table-responsive">
+				<div id="edit-term-alert"></div>
+				 	<div class="selection-controls">
+ 		<a href="#" class="select-all">Select All</a>
+ 		<a href="#" class="unselect-all">Unselect All</a>
+ 		
+ 	</div>
+ 
+				<form id="add-new-term" class="form-horizontal">
+					<div class="input-group">
+						<input type="text" name="term" class="form-control new-term" maxlength="50">
+						<div class="input-group-btn">
+							<a href="javascript:;" type="button" id="add-new-keyword-button" class="btn btn-blue">
+								Add
+							</a>
+						</div>
+					</div>
+				</form>
+				<div class="sliding-container">
+					<table class="search-trends-table selectable-table table table-bordered table-hover table-striped datatables">
+						<thead>
+							<tr>
+								<th class="sorting col-text">Keyword</th>
+								<th class="sorting col-number fixed-col">
+									Volume
+									<a class="black-popover "data-toggle="popover"data-content="This indicates the number of times this term is searched for (on a scale of 100) by people using mobile devices with full internet browsers in each country.<br />For Japan, we use a keyword’s number of appearances across all apps as a proxy for volume."data-original-title="Keyword Volume"data-placement="top"previous-placement="top"><i class="fa fa-question-circle color-inverse "></i></a>
+								</th>
+								<th class="sorting col-number fixed-col">
+									Hits
+									<a class="black-popover "data-toggle="popover"data-content="The number of search results (apps) returned when you search with this term (Scaled to 100, mouse-over for actuals)"data-original-title="Hits"data-placement="top"previous-placement="top"><i class="fa fa-question-circle color-inverse "></i></a>
+								</th>
+								<th class="sorting col-number fixed-col">
+									KEI
+									<a class="black-popover "data-toggle="popover"data-content="This score indicates this keyword's potential to drive traffic to your app. A keyword with high volume and low competition (hits) would result in a higher efficiency score.<br />For Japan, we use a keyword's number of appearances across all apps as a proxy for volume."data-original-title="Keyword Efficiency Index (KEI)"data-placement="top"previous-placement="top"><i class="fa fa-question-circle color-inverse "></i></a>
+								</th>
+								<th class="sorting col-number fixed-col">Rank</th>
+																											<th class="text-center sorting col-number sliding-cell">
+																						<img
+												class="lazy ios-corner30 inline-block black-tooltip"
+												data-original="https://dnarea4pd8g37.cloudfront.net/image/thumb/Purple128/v4/8e/46/2b/8e462b03-ca21-d87f-3d50-4732e86967bd/source/60x60bb.jpg"
+												data-toggle="tooltip"
+												data-placement="top"
+												title="Blockchain - Bitcoin Wallet"
+											>
+											<div>
+												<a href="/ios/compare/886427730/US/?competitor_app_id=493253309&d=iPhone">
+													Compare
+												</a>
+											</div>
+										</th>
+																																				<th class="text-center sorting col-number sliding-cell">
+																						<img
+												class="lazy ios-corner30 inline-block black-tooltip"
+												data-original="https://dnarea4pd8g37.cloudfront.net/image/thumb/Purple128/v4/c9/30/a1/c930a1ab-22c5-36fd-0845-8643ec751688/source/60x60bb.jpg"
+												data-toggle="tooltip"
+												data-placement="top"
+												title="Cash App"
+											>
+											<div>
+												<a href="/ios/compare/886427730/US/?competitor_app_id=711923939&d=iPhone">
+													Compare
+												</a>
+											</div>
+										</th>
+																																				<th class="text-center sorting col-number sliding-cell">
+																						<img
+												class="lazy ios-corner30 inline-block black-tooltip"
+												data-original="https://dnarea4pd8g37.cloudfront.net/image/thumb/Purple128/v4/1c/60/f0/1c60f05d-7506-b098-fe6c-4f96ddaae9ab/source/60x60bb.jpg"
+												data-toggle="tooltip"
+												data-placement="top"
+												title="bitWallet™  —  Bitcoin Wallet"
+											>
+											<div>
+												<a href="/ios/compare/886427730/US/?competitor_app_id=777634714&d=iPhone">
+													Compare
+												</a>
+											</div>
+										</th>
+																																				<th class="text-center sorting col-number sliding-cell">
+																						<img
+												class="lazy ios-corner30 inline-block black-tooltip"
+												data-original="https://dnarea4pd8g37.cloudfront.net/image/thumb/Purple128/v4/12/d6/3b/12d63b90-59a8-459f-3c63-84569bdc0f88/source/60x60bb.jpg"
+												data-toggle="tooltip"
+												data-placement="top"
+												title="Airbitz - Bitcoin Wallet"
+											>
+											<div>
+												<a href="/ios/compare/886427730/US/?competitor_app_id=843536046&d=iPhone">
+													Compare
+												</a>
+											</div>
+										</th>
+																																				<th class="text-center sorting col-number sliding-cell">
+																						<img
+												class="lazy ios-corner30 inline-block black-tooltip"
+												data-original="https://dnarea4pd8g37.cloudfront.net/image/thumb/Purple118/v4/b6/ac/2e/b6ac2e06-e3bb-1734-99be-b7aad1737177/source/60x60bb.jpg"
+												data-toggle="tooltip"
+												data-placement="top"
+												title="Bread - bitcoin wallet"
+											>
+											<div>
+												<a href="/ios/compare/886427730/US/?competitor_app_id=885251393&d=iPhone">
+													Compare
+												</a>
+											</div>
+										</th>
+																								</tr>
+						</thead>
+						<tbody>
+															<tr class="gradeU selectable"
+									id="keyword-row-566977"
+									data-attr-keyword="bluebird"
+									data-attr-keyword-id="566977"
+								>
+																			<td class="editable-keyword">
+											<div class="editable-keyword-block" data-sort-value="bluebird">
+												<div class="editable-keyword-name">
+													<a
+														href="/ios/search/us/en/?q=bluebird&d=iPhone"
+														target="_blank"
+													>bluebird</a>
+												</div>
+												<div class="editable-keyword-form hidden-block"><form id="edit-term-form-566977" class="edit-from form-horizontal"><div class="input-group"><input type="text" name="term" maxlength="50" class="form-control" value="bluebird"><div class="input-group-btn"><a href="javascript:;" type="button" class="btn btn-blue edit-keyword-value-button">Save</a></div></div></form></div>
+												<div class="edit-delete-keyword-block">
+													<a href="javascript:;" data-toggle="tooltip" class="edit-term-button black-tooltip" title="Edit">
+														<i class="fa fa-edit"></i>
+													</a>
+													<a href="javascript:;" data-toggle="tooltip" class="delete-term-button black-tooltip" title="Delete">
+														<i class="fa fa-minus-circle"></i>
+													</a>
+												</div>
+											</div>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="46"
+											 title="Volume: 46 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 46%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 289"
+											 data-sort-value="289"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 3%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="82.16653633218">
+											82.17
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3068211"
+									data-attr-keyword="bitcoin app"
+									data-attr-keyword-id="3068211"
+								>
+																			<td>
+											<span data-sort-value="bitcoin app">
+												<a
+													href="/ios/search/us/en/?q=bitcoin+app&d=iPhone"
+													target="_blank"
+												>bitcoin app</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 91"
+											 data-sort-value="91"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="4"><span class="rankings-value">4</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="14"><span class="rankings-value">14</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="7"><span class="rankings-value">7</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3068213"
+									data-attr-keyword="bitcoin prices"
+									data-attr-keyword-id="3068213"
+								>
+																			<td>
+											<span data-sort-value="bitcoin prices">
+												<a
+													href="/ios/search/us/en/?q=bitcoin+prices&d=iPhone"
+													target="_blank"
+												>bitcoin prices</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="8"><span class="rankings-value">8</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3117061"
+									data-attr-keyword="bitcoin coinbase"
+									data-attr-keyword-id="3117061"
+								>
+																			<td>
+											<span data-sort-value="bitcoin coinbase">
+												<a
+													href="/ios/search/us/en/?q=bitcoin+coinbase&d=iPhone"
+													target="_blank"
+												>bitcoin coinbase</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="9"><span class="rankings-value">9</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="25"><span class="rankings-value">25</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="28"><span class="rankings-value">28</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="18"><span class="rankings-value">18</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3139266"
+									data-attr-keyword="secure wallet free"
+									data-attr-keyword-id="3139266"
+								>
+																			<td>
+											<span data-sort-value="secure wallet free">
+												<a
+													href="/ios/search/us/en/?q=secure+wallet+free&d=iPhone"
+													target="_blank"
+												>secure wallet free</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 75"
+											 data-sort-value="75"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="12"><span class="rankings-value">12</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="10"><span class="rankings-value">10</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3266322"
+									data-attr-keyword="bitcoin app free"
+									data-attr-keyword-id="3266322"
+								>
+																			<td>
+											<span data-sort-value="bitcoin app free">
+												<a
+													href="/ios/search/us/en/?q=bitcoin+app+free&d=iPhone"
+													target="_blank"
+												>bitcoin app free</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="6"><span class="rankings-value">6</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="15"><span class="rankings-value">15</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="14"><span class="rankings-value">14</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3266323"
+									data-attr-keyword="bitcoin average"
+									data-attr-keyword-id="3266323"
+								>
+																			<td>
+											<span data-sort-value="bitcoin average">
+												<a
+													href="/ios/search/us/en/?q=bitcoin+average&d=iPhone"
+													target="_blank"
+												>bitcoin average</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="4"><span class="rankings-value">4</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-lg fa-arrow-circle-down color-danger"></i>
+				<span class="rankings-value">1</span>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="16"><span class="rankings-value">16</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="18"><span class="rankings-value">18</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="10"><span class="rankings-value">10</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3266326"
+									data-attr-keyword="bitcoin buy"
+									data-attr-keyword-id="3266326"
+								>
+																			<td>
+											<span data-sort-value="bitcoin buy">
+												<a
+													href="/ios/search/us/en/?q=bitcoin+buy&d=iPhone"
+													target="_blank"
+												>bitcoin buy</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 37"
+											 data-sort-value="37"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3290647"
+									data-attr-keyword="coinbase exchange"
+									data-attr-keyword-id="3290647"
+								>
+																			<td>
+											<span data-sort-value="coinbase exchange">
+												<a
+													href="/ios/search/us/en/?q=coinbase+exchange&d=iPhone"
+													target="_blank"
+												>coinbase exchange</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3368116"
+									data-attr-keyword="hive wallet"
+									data-attr-keyword-id="3368116"
+								>
+																			<td>
+											<span data-sort-value="hive wallet">
+												<a
+													href="/ios/search/us/en/?q=hive+wallet&d=iPhone"
+													target="_blank"
+												>hive wallet</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="8"><span class="rankings-value">8</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="7"><span class="rankings-value">7</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3396952"
+									data-attr-keyword="litecoin profit calculator"
+									data-attr-keyword-id="3396952"
+								>
+																			<td>
+											<span data-sort-value="litecoin profit calculator">
+												<a
+													href="/ios/search/us/en/?q=litecoin+profit+calculator&d=iPhone"
+													target="_blank"
+												>litecoin profit calculator</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 134"
+											 data-sort-value="134"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 2%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="7"><span class="rankings-value">7</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3396953"
+									data-attr-keyword="litecoin trends"
+									data-attr-keyword-id="3396953"
+								>
+																			<td>
+											<span data-sort-value="litecoin trends">
+												<a
+													href="/ios/search/us/en/?q=litecoin+trends&d=iPhone"
+													target="_blank"
+												>litecoin trends</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="1"
+											 title="Volume: 1 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 134"
+											 data-sort-value="134"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 2%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0.010776119402985">
+											0.01
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="9"><span class="rankings-value">9</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3396954"
+									data-attr-keyword="litecoin wallet"
+									data-attr-keyword-id="3396954"
+								>
+																			<td>
+											<span data-sort-value="litecoin wallet">
+												<a
+													href="/ios/search/us/en/?q=litecoin+wallet&d=iPhone"
+													target="_blank"
+												>litecoin wallet</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="4"><span class="rankings-value">4</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="6"><span class="rankings-value">6</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="10"><span class="rankings-value">10</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="7"><span class="rankings-value">7</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3424709"
+									data-attr-keyword="my wallet app"
+									data-attr-keyword-id="3424709"
+								>
+																			<td>
+											<span data-sort-value="my wallet app">
+												<a
+													href="/ios/search/us/en/?q=my+wallet+app&d=iPhone"
+													target="_blank"
+												>my wallet app</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="12"><span class="rankings-value">12</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="119"><span class="rankings-value">119</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="92"><span class="rankings-value">92</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="96"><span class="rankings-value">96</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-lg fa-arrow-circle-up color-green"></i>
+				<span class="rankings-value">2</span>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-3774023"
+									data-attr-keyword="buy bitcoins"
+									data-attr-keyword-id="3774023"
+								>
+																			<td>
+											<span data-sort-value="buy bitcoins">
+												<a
+													href="/ios/search/us/en/?q=buy+bitcoins&d=iPhone"
+													target="_blank"
+												>buy bitcoins</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="43"
+											 title="Volume: 43 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 43%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 0"
+											 data-sort-value="0"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="36"><span class="rankings-value">36</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="30"><span class="rankings-value">30</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="17"><span class="rankings-value">17</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-4396603"
+									data-attr-keyword="coin base"
+									data-attr-keyword-id="4396603"
+								>
+																			<td>
+											<span data-sort-value="coin base">
+												<a
+													href="/ios/search/us/en/?q=coin+base&d=iPhone"
+													target="_blank"
+												>coin base</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="44"
+											 title="Volume: 44 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 44%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 143"
+											 data-sort-value="143"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 2%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="152.64044755245">
+											153
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="9"><span class="rankings-value">9</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-lg fa-arrow-circle-up color-green"></i>
+				<span class="rankings-value">12</span>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="8"><span class="rankings-value">8</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="7"><span class="rankings-value">7</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-lg fa-arrow-circle-down color-danger"></i>
+				<span class="rankings-value">1</span>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-4935988"
+									data-attr-keyword="crypto wallet"
+									data-attr-keyword-id="4935988"
+								>
+																			<td>
+											<span data-sort-value="crypto wallet">
+												<a
+													href="/ios/search/us/en/?q=crypto+wallet&d=iPhone"
+													target="_blank"
+												>crypto wallet</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="43"
+											 title="Volume: 43 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 43%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 16"
+											 data-sort-value="16"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="1325.3765625">
+											1.3 K
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="6"><span class="rankings-value">6</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-4952654"
+									data-attr-keyword="luno bitcoin wallet"
+									data-attr-keyword-id="4952654"
+								>
+																			<td>
+											<span data-sort-value="luno bitcoin wallet">
+												<a
+													href="/ios/search/us/en/?q=luno+bitcoin+wallet&d=iPhone"
+													target="_blank"
+												>luno bitcoin wallet</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="3"
+											 title="Volume: 3 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 3%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 1"
+											 data-sort-value="1"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="50.176">
+											50.18
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="9"><span class="rankings-value">9</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-lg fa-arrow-circle-up color-green"></i>
+				<span class="rankings-value">242</span>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="11"><span class="rankings-value">11</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-lg fa-arrow-circle-down color-danger"></i>
+				<span class="rankings-value">2</span>
+			</div></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-5247164"
+									data-attr-keyword="buy ethereum"
+									data-attr-keyword-id="5247164"
+								>
+																			<td>
+											<span data-sort-value="buy ethereum">
+												<a
+													href="/ios/search/us/en/?q=buy+ethereum&d=iPhone"
+													target="_blank"
+												>buy ethereum</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="43"
+											 title="Volume: 43 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 43%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 10"
+											 data-sort-value="10"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="2120.6025">
+											2.1 K
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-5250140"
+									data-attr-keyword="a la pizarra"
+									data-attr-keyword-id="5250140"
+								>
+																			<td>
+											<span data-sort-value="a la pizarra">
+												<a
+													href="/ios/search/us/en/?q=a+la+pizarra&d=iPhone"
+													target="_blank"
+												>a la pizarra</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="0"
+											 title="Volume: 0 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 0%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 178"
+											 data-sort-value="178"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 2%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="0">
+											0.00
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																											</tr>
+															<tr class="gradeU selectable"
+									id="keyword-row-5297766"
+									data-attr-keyword="kryptobit wallet"
+									data-attr-keyword-id="5297766"
+								>
+																			<td>
+											<span data-sort-value="kryptobit wallet">
+												<a
+													href="/ios/search/us/en/?q=kryptobit+wallet&d=iPhone"
+													target="_blank"
+												>kryptobit wallet</a>
+											</span>
+										</td>
+																		<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 data-sort-value="2"
+											 title="Volume: 2 / 100"
+										>
+											<div class="progress-bar progress-bar-indigo" style="width: 2%;"></div>
+										</div>
+									</td>
+									<td class="fixed-col">
+										<div class="progress black-tooltip"
+											 data-toggle="tooltip"
+											 title="App Store Hits: 1"
+											 data-sort-value="1"
+										>
+											<div class="progress-bar progress-bar-primary" style="width: 1%;"></div>
+										</div>
+									</td>
+									<td class="text-center fixed-col">
+										<span class="rankings-value" data-sort-value="24.025">
+											24.03
+										</span>
+									</td>
+									<td class="text-center fixed-col">
+										<div class="rankings" data-sort-value="1"><span class="rankings-value">1</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+									</td>
+
+																																									<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="3"><span class="rankings-value">3</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="99999999999999"><span class="rankings-value">—</span></div>
+											</td>
+																																																			<td class="text-center sliding-cell col-number">
+												<div class="rankings" data-sort-value="2"><span class="rankings-value">2</span>
+			<div class="ranking-diff-block">
+				<i class="fa fa-exchange fa-lg exchange-arrow"></i>
+			</div></div>
+											</td>
+																											</tr>
+													</tbody>
+					</table>
+				</div>
+
+				<div class="clearfix"></div>
+				<div class="app-api-portal-link" style="margin: 15px 5px;"><a href="https://developer.searchman.com/?&utm_source=searchman#byapp-app2keywords--us-886427730-Coinbase+-+Buy+Bitcoin+%26+more--" target="_blank">Get this data via API or Spreadsheet</a></div>
+					</div>
+	

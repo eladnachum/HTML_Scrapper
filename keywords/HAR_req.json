@@ -1,0 +1,3595 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2017-11-17T22:43:41.485Z",
+        "time": 648.1501119937748,
+        "request": {
+          "method": "POST",
+          "url": "https://adwords.google.com/um/GetStarted/g?authuser=0&__u=8366573661&__c=6519561002",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "origin",
+              "value": "https://adwords.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "x-gwt-permutation",
+              "value": "CE05809FCF765752ADFEF2124C64CD4B"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "x-gwt-module-base",
+              "value": "https://adwords.google.com/um/GetStarted/com.google.ads.apps.usermgmt.getstarted.client.main.Module/"
+            },
+            {
+              "name": "cookie",
+              "value": "_pgar=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0; CONSENT=YES+IL.en+20160815-07-0; 1P_JAR=2017-11-16-8; gap%3AUA-37177323-1%3A18558082978=%7B%22mobile%22%3A%22%2B18553527879%22%2C%22display%22%3A%22(855)%20352-7879%22%2C%22expires%22%3A1510914099%7D; HSID=ATDQqKMj6V3tx2dJn; SSID=AOnj4jYBapzt8yfrQ; APISID=O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg; SAPISID=lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar; SAG=awWwtHtQwHvNy8b8JM9HzMAqaSfQcYW8-hwr7MrkhODAliIQO3Geg8G3ajce9T_vL7oREA.; adwordsReferralSource=sourceid=emp&subid=ww-ww-et-g-aw-a-tools-awhp!o2&clickid=sn-6r-og-il-11172017; SID=awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.; NID=117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP; _gat_UA-37177323-1=1; A=AIxWtxTJ40V6eyVuhkKbzBhTAdZ56TLoKkr5lqnHJ_ZdJ6rC0EY4yOzfMOT4QJcqk1WROsB4YYgnzOAeOtnxSMXT4pQfN6-DitYMvOHRQlOiW2DV0VzRN2uV3DVwPL_0rc7prNkp1NnIvongkgteuGAQ_f9KrXzIljfq1vnba1sDuqKEfbGfTRmeBa-2anA2zuY72vZU1Wtr; AdsUserLocale=en_US; S=adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ; SIDCC=AE4kn79B6vMtzVINOc_vT9rJcQPS-nnrbCsT7XxMjZtTUgFLoC7Drv3gSto0q85ohcjG4rWEP74D6aXbfB0; _ga=GA1.3.1574563537.1510908700; _gid=GA1.3.1683483841.1510908700"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJK2yQEIpbbJAQjEtskBCPqcygEIqZ3KAQjSncoBCKijygE="
+            },
+            {
+              "name": "content-length",
+              "value": "3814"
+            },
+            {
+              "name": ":path",
+              "value": "/um/GetStarted/g?authuser=0&__u=8366573661&__c=6519561002"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "text/x-gwt-rpc; charset=UTF-8"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "adwords.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "authuser",
+              "value": "0"
+            },
+            {
+              "name": "__u",
+              "value": "8366573661"
+            },
+            {
+              "name": "__c",
+              "value": "6519561002"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "_pgar",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CONSENT",
+              "value": "YES+IL.en+20160815-07-0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2017-11-16-8",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "gap%3AUA-37177323-1%3A18558082978",
+              "value": "%7B%22mobile%22%3A%22%2B18553527879%22%2C%22display%22%3A%22(855)%20352-7879%22%2C%22expires%22%3A1510914099%7D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "ATDQqKMj6V3tx2dJn",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AOnj4jYBapzt8yfrQ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAG",
+              "value": "awWwtHtQwHvNy8b8JM9HzMAqaSfQcYW8-hwr7MrkhODAliIQO3Geg8G3ajce9T_vL7oREA.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "adwordsReferralSource",
+              "value": "sourceid=emp&subid=ww-ww-et-g-aw-a-tools-awhp!o2&clickid=sn-6r-og-il-11172017",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gat_UA-37177323-1",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "A",
+              "value": "AIxWtxTJ40V6eyVuhkKbzBhTAdZ56TLoKkr5lqnHJ_ZdJ6rC0EY4yOzfMOT4QJcqk1WROsB4YYgnzOAeOtnxSMXT4pQfN6-DitYMvOHRQlOiW2DV0VzRN2uV3DVwPL_0rc7prNkp1NnIvongkgteuGAQ_f9KrXzIljfq1vnba1sDuqKEfbGfTRmeBa-2anA2zuY72vZU1Wtr",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "AdsUserLocale",
+              "value": "en_US",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn79B6vMtzVINOc_vT9rJcQPS-nnrbCsT7XxMjZtTUgFLoC7Drv3gSto0q85ohcjG4rWEP74D6aXbfB0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.1574563537.1510908700",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.3.1683483841.1510908700",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 3814,
+          "postData": {
+            "mimeType": "text/x-gwt-rpc; charset=UTF-8",
+            "text": "7|0|76|https://adwords.google.com/um/GetStarted/com.google.ads.apps.usermgmt.getstarted.client.main.Module/|22D5B3FA3CEBB378F43793C10A1E70DB|com.google.ads.api.gwt.rpc.client.BatchedInvocationService|invoke|com.google.ads.api.gwt.rpc.client.BatchedInvocationRequest/2983766987|com.google.ads.apps.common.shared.header.BatchRequestHeaderImpl/2595329959|java.util.HashMap/1797211028|com.google.ads.apps.common.shared.header.ApiHeaderType/3992732687|com.google.ads.apps.common.shared.header.BatchAdsApiRequestHeaderInfo/1561664655|com.google.ads.api.modules.request.headers.GrubbyHeader$ChangeIdMode/272930539|com.google.ads.apps.common.usagetracking.server.UsageTrackingService.logImpression|f4y0solxqFIkEvLQyh7CxlsPg8o:1510958582073|java.util.ArrayList/4159755760|com.google.ads.apps.common.usagetracking.shared.UsageTrackingServiceGwt$ImpressionRequest/3960782202|com.google.ads.apps.common.shared.header.SingleAdsApiRequestHeader/4098801396|com.google.ads.apps.common.shared.header.ClientCacheHint/2402802613|com.google.ads.apps.common.shared.header.ServerCacheHint/3129959624|java.lang.Boolean/476441737|com.google.ads.api.modules.request.headers.ApiVersion/450371163|com.google.ads.api.modules.request.headers.GrubbyHeader$CustomerIdMode/45453300|com.google.ads.api.modules.request.headers.GrubbyHeader$DatabaseReadMode/1150601902|com.google.common.collect.RegularImmutableList/440499227|com.google.ads.common.logging.MetricEntries$ImpressionEntry/454587110|[Lcom.google.ads.common.logging.ApexExperimentMetrics;/1267822276|com.google.ads.common.logging.ApexExperimentMetrics/1204991806|TREATMENT|java.lang.String/2004016611|AWSM|AWN_INTERNALOPS|MCC|NOTIFICATIONS|UM|ADWORDS_NEXT_BILLING||CUES|ADWORDS_NEXT_MCC|ADWORDS_NEXT_INTERNALOPS|ADWORDS_NEXT_ACCESS_TO_ALL|TREATMENT_SIGNUP_FLOW_CLICKS_WITH_BADGES|CM|CM_GROWTH_MOBILE_PROMO|CT|PRIME|AWN_PRIME|AWN_CM|ADWORDS_NEXT|ADWORDS_NEXT_NEW_CUSTOMERS|KP|ADWORDS_NEXT_KEYWORD_PLANNER|https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0#oc|[Lcom.google.ads.common.logging.ExperimentMetrics;/2152658160|com.google.ads.common.logging.ExperimentMetrics/1213839764|enable-call-consent|com.google.common.collect.RegularImmutableMap/1085455152|remove-progress-bar|enable-appstore|orinoco-megablox|get-started-w-logo|show-estimated-reach-panel|expanded-text-ad|youtube-linked-accounts|show-top-ad-preview|enable-goldmine-auto-expand|u2-migration|default-opt-in|billing-all-countries|enable-auto-expand|rewire-guided-orinoco-billing-for-budgets-in-ads|mobile-compatible-orinoco|policy-certificate-expiration|target-cpa-suggestion|electrum-account-linking-ui|[Ljava.lang.String;/2600011424|Orinoco.oc.keywords-editor-keywords-input-focused|oc.keywords-editor-keywords-input-focused|com.google.ads.apps.common.uimode.shared.UiMode/4208379950|1|2|3|4|1|5|5|6|B_5s71iVnA|10|7|1|8|0|9|A|10|2|GEmJsq|Hyr8hd|11|12|13|1|14|15|16|0|0|17|13|0|18|0|18|1|0|0|19|6|0|A|0|0|0|0|0|0|0|0|20|0|21|1|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|22|0|0|0|0|7|0|0|0|0|23|24|8|25|0|1|26|22|5|27|28|27|29|27|30|27|31|27|32|33|0|252|34|FUlReeu8O|25|0|1|26|22|3|-24|27|35|-28|36|0|252|34|FWguhina5|25|0|1|26|22|3|-24|-31|-28|37|0|252|34|FW9cs8QQc|25|0|1|26|22|3|-24|-31|-28|38|0|749|34|FW9cs8QQc|25|0|1|39|22|2|27|40|-28|41|0|340|34|FV4L2$Qzk|25|0|0|34|22|9|-24|-31|-28|27|42|27|43|27|44|-25|27|45|-38|46|0|252|34|FWzMJiJ_3|25|0|1|26|22|3|-24|-31|-28|47|0|252|34|FWzhhJjZK|25|0|0|34|22|3|-24|-28|27|48|49|0|252|34|FW1uiRGFm|50|0|51|19|52|53|54|0|1|1|1|52|55|-52|1|1|1|52|56|-52|1|1|1|52|57|-52|1|1|1|52|58|-52|1|1|1|52|59|-52|1|1|1|52|60|-52|1|1|1|52|61|-52|1|1|0|52|62|-52|1|1|1|52|63|-52|1|1|1|52|64|-52|1|1|1|52|65|-52|1|1|1|52|66|-52|1|1|1|52|67|-52|1|1|1|52|68|-52|1|1|1|52|69|-52|1|1|1|52|70|-52|1|1|1|52|71|-52|1|1|1|52|72|-52|1|1|1|V_MJuMb|73|0|-1|74|73|1|75|76|0|"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Fri, 17 Nov 2017 22:43:41 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, max-age=0"
+            },
+            {
+              "name": "x-invoke-duration",
+              "value": "532"
+            },
+            {
+              "name": "content-disposition",
+              "value": "attachment"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AE4kn7-FozzLUMoms-fvkZRKKy45Agnxu6QzKF9fPUT_IyidWzVR4NkgTtx93LcWpTJZo1smDujbIWAk4e0; expires=Thu, 15-Feb-2018 22:43:41 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AE4kn7_oCNlEO657jtH1778tSks8ss6GRmbOWPZKYI-mBuwkllNGRd0Hr2x7ZuYz8Fwz91Srg-CxW_lm8Xw; expires=Thu, 15-Feb-2018 22:43:41 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "440"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 17 Nov 2017 22:43:41 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "SIDCC",
+              "value": "AE4kn7-FozzLUMoms-fvkZRKKy45Agnxu6QzKF9fPUT_IyidWzVR4NkgTtx93LcWpTJZo1smDujbIWAk4e0",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-02-15T22:43:41.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn7_oCNlEO657jtH1778tSks8ss6GRmbOWPZKYI-mBuwkllNGRd0Hr2x7ZuYz8Fwz91Srg-CxW_lm8Xw",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-02-15T22:43:41.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 924,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 814
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 5.294111907482144,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.5870000459253797,
+          "wait": 642.3730000387877,
+          "receive": 1.896000001579523,
+          "_blocked_queueing": 1.112000085413456
+        },
+        "serverIPAddress": "74.125.206.100",
+        "connection": "1398872"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.485Z",
+        "time": 101.79802190151531,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-keywords-input-focused&ea=oc.keywords-editor-keywords-input-focused&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1240621246",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-keywords-input-focused&ea=oc.keywords-editor-keywords-input-focused&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1240621246"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "Orinoco.oc.keywords-editor-keywords-input-focused"
+            },
+            {
+              "name": "ea",
+              "value": "oc.keywords-editor-keywords-input-focused"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "1240621246"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017928"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 72
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 7.623021946405066,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.3939999733120203,
+          "wait": 93.54200004599988,
+          "receive": 2.238999935798347,
+          "_blocked_queueing": 1.0219999821856618
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.631Z",
+        "time": 93.68057602760382,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&ni=0&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Consolidated%20SUF&ea=Clicked%20on%20gtm-id&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1072967713",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&ni=0&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Consolidated%20SUF&ea=Clicked%20on%20gtm-id&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1072967713"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "ni",
+              "value": "0"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "Consolidated%20SUF"
+            },
+            {
+              "name": "ea",
+              "value": "Clicked%20on%20gtm-id"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "1072967713"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017929"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 72
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 7.517576078185816,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.2689999528229201,
+          "wait": 82.2080000070855,
+          "receive": 5.6859999895095825,
+          "_blocked_queueing": 0.5759999621659517
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.652Z",
+        "time": 128.15262699790765,
+        "request": {
+          "method": "GET",
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/939380369/?random=1510958621648&cv=8&fst=1510958621648&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&gtm=Gbe&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&rfmt=3&fmt=4",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/pagead/viewthroughconversion/939380369/?random=1510958621648&cv=8&fst=1510958621648&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&gtm=Gbe&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&rfmt=3&fmt=4"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "googleads.g.doubleclick.net"
+            },
+            {
+              "name": "cookie",
+              "value": "id=22579166360600f9||t=1473065127|et=730|cs=002213fd48ea452afcea5906d9; __gfp_64b=IjeGowc4qYXGLb_gcmCTEQUTRsFOaiomRPbC81aZuJ3.X7; IDE=AHWqTUkmi7Otvz2onIEr4GL2ucQhU-DVnLlfToLN2Tg0AQKh7ur2t29umfUALaUE"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJK2yQEIpbbJAQjEtskBCPqcygEIqZ3KAQjSncoBCKijygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "random",
+              "value": "1510958621648"
+            },
+            {
+              "name": "cv",
+              "value": "8"
+            },
+            {
+              "name": "fst",
+              "value": "1510958621648"
+            },
+            {
+              "name": "num",
+              "value": "1"
+            },
+            {
+              "name": "label",
+              "value": "lvtcCJmxnGgQkZ33vwM"
+            },
+            {
+              "name": "guid",
+              "value": "ON"
+            },
+            {
+              "name": "u_h",
+              "value": "900"
+            },
+            {
+              "name": "u_w",
+              "value": "1600"
+            },
+            {
+              "name": "u_ah",
+              "value": "860"
+            },
+            {
+              "name": "u_aw",
+              "value": "1600"
+            },
+            {
+              "name": "u_cd",
+              "value": "24"
+            },
+            {
+              "name": "u_his",
+              "value": "2"
+            },
+            {
+              "name": "u_tz",
+              "value": "120"
+            },
+            {
+              "name": "u_java",
+              "value": "false"
+            },
+            {
+              "name": "u_nplug",
+              "value": "4"
+            },
+            {
+              "name": "u_nmime",
+              "value": "5"
+            },
+            {
+              "name": "gtm",
+              "value": "Gbe"
+            },
+            {
+              "name": "frm",
+              "value": "0"
+            },
+            {
+              "name": "url",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0"
+            },
+            {
+              "name": "ref",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "tiba",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "async",
+              "value": "1"
+            },
+            {
+              "name": "rfmt",
+              "value": "3"
+            },
+            {
+              "name": "fmt",
+              "value": "4"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "id",
+              "value": "22579166360600f9||t=1473065127|et=730|cs=002213fd48ea452afcea5906d9",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__gfp_64b",
+              "value": "IjeGowc4qYXGLb_gcmCTEQUTRsFOaiomRPbC81aZuJ3.X7",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "IDE",
+              "value": "AHWqTUkmi7Otvz2onIEr4GL2ucQhU-DVnLlfToLN2Tg0AQKh7ur2t29umfUALaUE",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 17 Nov 2017 22:43:41 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "cafe"
+            },
+            {
+              "name": "timing-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "status",
+              "value": "302"
+            },
+            {
+              "name": "p3p",
+              "value": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+            },
+            {
+              "name": "location",
+              "value": "https://www.google.com/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "attachment; filename=\"f.txt\""
+            },
+            {
+              "name": "content-type",
+              "value": "text/javascript; charset=UTF-8"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\"googleads.g.doubleclick.net:443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"41,39,38,37,35\",hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "https://www.google.com/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 428
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 4.5126270140754094,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.61699992511421,
+          "wait": 123.56700003147125,
+          "receive": 1.4560000272467732,
+          "_blocked_queueing": 0.6270000012591481
+        },
+        "serverIPAddress": "216.58.206.130",
+        "connection": "1398213"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.681Z",
+        "time": 119.92243296210654,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-add-button-clicked&ea=oc.keywords-editor-add-button-clicked&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1245633570",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-add-button-clicked&ea=oc.keywords-editor-add-button-clicked&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1245633570"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "Orinoco.oc.keywords-editor-add-button-clicked"
+            },
+            {
+              "name": "ea",
+              "value": "oc.keywords-editor-add-button-clicked"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "1245633570"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017929"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 66
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 5.513432952808216,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.30299997888505015,
+          "wait": 82.75199995841831,
+          "receive": 33.35400007199496,
+          "_blocked_queueing": 0.4330000374466181
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.682Z",
+        "time": 122.19863794674166,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=oc&ea=keywords-editor-manual-keywords-added&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=660419221",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=oc&ea=keywords-editor-manual-keywords-added&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=660419221"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "oc"
+            },
+            {
+              "name": "ea",
+              "value": "keywords-editor-manual-keywords-added"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "660419221"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017929"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 66
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 10.356637926073704,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.31300005502999895,
+          "wait": 110.65299995243552,
+          "receive": 2.876000013202429,
+          "_blocked_queueing": 0.6379999686032534
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.682Z",
+        "time": 122.92689201852772,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-more-keywords-loading-panel-displayed&ea=oc.keywords-editor-more-keywords-loading-panel-displayed&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1272543234",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-more-keywords-loading-panel-displayed&ea=oc.keywords-editor-more-keywords-loading-panel-displayed&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=1272543234"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "Orinoco.oc.keywords-editor-more-keywords-loading-panel-displayed"
+            },
+            {
+              "name": "ea",
+              "value": "oc.keywords-editor-more-keywords-loading-panel-displayed"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "1272543234"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017929"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 66
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 12.459892106824524,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.21199998445809953,
+          "wait": 109.18699996545912,
+          "receive": 3.067999961785972,
+          "_blocked_queueing": 0.8919999236240983
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.725Z",
+        "time": 1205.7425789986737,
+        "request": {
+          "method": "POST",
+          "url": "https://adwords.google.com/um/GetStarted/g?authuser=0&__u=8366573661&__c=6519561002",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "origin",
+              "value": "https://adwords.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "x-gwt-permutation",
+              "value": "CE05809FCF765752ADFEF2124C64CD4B"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "x-gwt-module-base",
+              "value": "https://adwords.google.com/um/GetStarted/com.google.ads.apps.usermgmt.getstarted.client.main.Module/"
+            },
+            {
+              "name": "cookie",
+              "value": "_pgar=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0; CONSENT=YES+IL.en+20160815-07-0; 1P_JAR=2017-11-16-8; gap%3AUA-37177323-1%3A18558082978=%7B%22mobile%22%3A%22%2B18553527879%22%2C%22display%22%3A%22(855)%20352-7879%22%2C%22expires%22%3A1510914099%7D; HSID=ATDQqKMj6V3tx2dJn; SSID=AOnj4jYBapzt8yfrQ; APISID=O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg; SAPISID=lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar; SAG=awWwtHtQwHvNy8b8JM9HzMAqaSfQcYW8-hwr7MrkhODAliIQO3Geg8G3ajce9T_vL7oREA.; adwordsReferralSource=sourceid=emp&subid=ww-ww-et-g-aw-a-tools-awhp!o2&clickid=sn-6r-og-il-11172017; SID=awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.; NID=117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP; _gat_UA-37177323-1=1; A=AIxWtxTJ40V6eyVuhkKbzBhTAdZ56TLoKkr5lqnHJ_ZdJ6rC0EY4yOzfMOT4QJcqk1WROsB4YYgnzOAeOtnxSMXT4pQfN6-DitYMvOHRQlOiW2DV0VzRN2uV3DVwPL_0rc7prNkp1NnIvongkgteuGAQ_f9KrXzIljfq1vnba1sDuqKEfbGfTRmeBa-2anA2zuY72vZU1Wtr; AdsUserLocale=en_US; S=adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ; SIDCC=AE4kn79B6vMtzVINOc_vT9rJcQPS-nnrbCsT7XxMjZtTUgFLoC7Drv3gSto0q85ohcjG4rWEP74D6aXbfB0; _ga=GA1.3.1574563537.1510908700; _gid=GA1.3.1683483841.1510908700"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJK2yQEIpbbJAQjEtskBCPqcygEIqZ3KAQjSncoBCKijygE="
+            },
+            {
+              "name": "content-length",
+              "value": "5177"
+            },
+            {
+              "name": ":path",
+              "value": "/um/GetStarted/g?authuser=0&__u=8366573661&__c=6519561002"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "text/x-gwt-rpc; charset=UTF-8"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "adwords.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "authuser",
+              "value": "0"
+            },
+            {
+              "name": "__u",
+              "value": "8366573661"
+            },
+            {
+              "name": "__c",
+              "value": "6519561002"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "_pgar",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CONSENT",
+              "value": "YES+IL.en+20160815-07-0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2017-11-16-8",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "gap%3AUA-37177323-1%3A18558082978",
+              "value": "%7B%22mobile%22%3A%22%2B18553527879%22%2C%22display%22%3A%22(855)%20352-7879%22%2C%22expires%22%3A1510914099%7D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "ATDQqKMj6V3tx2dJn",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AOnj4jYBapzt8yfrQ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAG",
+              "value": "awWwtHtQwHvNy8b8JM9HzMAqaSfQcYW8-hwr7MrkhODAliIQO3Geg8G3ajce9T_vL7oREA.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "adwordsReferralSource",
+              "value": "sourceid=emp&subid=ww-ww-et-g-aw-a-tools-awhp!o2&clickid=sn-6r-og-il-11172017",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gat_UA-37177323-1",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "A",
+              "value": "AIxWtxTJ40V6eyVuhkKbzBhTAdZ56TLoKkr5lqnHJ_ZdJ6rC0EY4yOzfMOT4QJcqk1WROsB4YYgnzOAeOtnxSMXT4pQfN6-DitYMvOHRQlOiW2DV0VzRN2uV3DVwPL_0rc7prNkp1NnIvongkgteuGAQ_f9KrXzIljfq1vnba1sDuqKEfbGfTRmeBa-2anA2zuY72vZU1Wtr",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "AdsUserLocale",
+              "value": "en_US",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn79B6vMtzVINOc_vT9rJcQPS-nnrbCsT7XxMjZtTUgFLoC7Drv3gSto0q85ohcjG4rWEP74D6aXbfB0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.1574563537.1510908700",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.3.1683483841.1510908700",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 5177,
+          "postData": {
+            "mimeType": "text/x-gwt-rpc; charset=UTF-8",
+            "text": "7|0|92|https://adwords.google.com/um/GetStarted/com.google.ads.apps.usermgmt.getstarted.client.main.Module/|22D5B3FA3CEBB378F43793C10A1E70DB|com.google.ads.api.gwt.rpc.client.BatchedInvocationService|invoke|com.google.ads.api.gwt.rpc.client.BatchedInvocationRequest/2983766987|com.google.ads.apps.common.shared.header.BatchRequestHeaderImpl/2595329959|java.util.HashMap/1797211028|com.google.ads.apps.common.shared.header.ApiHeaderType/3992732687|com.google.ads.apps.common.shared.header.BatchAdsApiRequestHeaderInfo/1561664655|com.google.ads.api.modules.request.headers.GrubbyHeader$ChangeIdMode/272930539|Action (oc.keywords-editor-manual-keywords-added)|f4y0solxqFIkEvLQyh7CxlsPg8o:1510958582073|java.util.ArrayList/4159755760|com.google.ads.apps.common.usagetracking.shared.UsageTrackingServiceGwt$ImpressionRequest/3960782202|com.google.ads.apps.common.shared.header.SingleAdsApiRequestHeader/4098801396|com.google.ads.apps.common.shared.header.ClientCacheHint/2402802613|com.google.ads.apps.common.shared.header.ServerCacheHint/3129959624|java.lang.Boolean/476441737|com.google.ads.api.modules.request.headers.ApiVersion/450371163|com.google.ads.api.modules.request.headers.GrubbyHeader$CustomerIdMode/45453300|com.google.ads.api.modules.request.headers.GrubbyHeader$DatabaseReadMode/1150601902|com.google.common.collect.RegularImmutableList/440499227|com.google.ads.common.logging.MetricEntries$ImpressionEntry/454587110|[Lcom.google.ads.common.logging.ApexExperimentMetrics;/1267822276|com.google.ads.common.logging.ApexExperimentMetrics/1204991806|TREATMENT|java.lang.String/2004016611|AWSM|AWN_INTERNALOPS|MCC|NOTIFICATIONS|UM|ADWORDS_NEXT_BILLING||CUES|ADWORDS_NEXT_MCC|ADWORDS_NEXT_INTERNALOPS|ADWORDS_NEXT_ACCESS_TO_ALL|TREATMENT_SIGNUP_FLOW_CLICKS_WITH_BADGES|CM|CM_GROWTH_MOBILE_PROMO|CT|PRIME|AWN_PRIME|AWN_CM|ADWORDS_NEXT|ADWORDS_NEXT_NEW_CUSTOMERS|KP|ADWORDS_NEXT_KEYWORD_PLANNER|https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0#oc|[Lcom.google.ads.common.logging.ExperimentMetrics;/2152658160|com.google.ads.common.logging.ExperimentMetrics/1213839764|enable-call-consent|com.google.common.collect.RegularImmutableMap/1085455152|remove-progress-bar|enable-appstore|orinoco-megablox|get-started-w-logo|show-estimated-reach-panel|expanded-text-ad|youtube-linked-accounts|show-top-ad-preview|enable-goldmine-auto-expand|u2-migration|default-opt-in|billing-all-countries|enable-auto-expand|rewire-guided-orinoco-billing-for-budgets-in-ads|mobile-compatible-orinoco|policy-certificate-expiration|target-cpa-suggestion|electrum-account-linking-ui|[Ljava.lang.String;/2600011424|Orinoco.oc.keywords-editor-add-button-clicked|oc.keywords-editor-add-button-clicked|com.google.ads.apps.common.uimode.shared.UiMode/4208379950|Orinoco.oc.keywords-editor-more-keywords-loading-panel-displayed|oc.keywords-editor-more-keywords-loading-panel-displayed|com.google.ads.api.services.targetingideas.TargetingIdeaServiceGwt$GetRequest/3383609480|com.google.ads.api.services.targetingideas.TargetingIdeaSelector/2627210933|com.google.common.money.CurrencyCode/106663750|com.google.ads.api.services.common.optimization.attributes.IdeaType/2203757972|com.google.ads.api.services.common.pagination.Paging/363399854|com.google.ads.api.services.targetingideas.attributes.RequestType/1717662043|com.google.common.collect.RegularImmutableSet/2091368678|com.google.ads.api.services.targetingideas.attributes.Type/1890757380|KEYWORD_TEXT|SEARCH_VOLUME|com.google.common.collect.SingletonImmutableSet/3384254043|com.google.ads.api.services.targetingideas.search.RelatedToQuerySearchParameter/174750086|com.google.common.collect.SingletonImmutableList/4247067418|bikes|1|2|3|4|1|5|5|6|B_5s71iVnA|11|7|1|8|0|9|A|10|2|GEmJsq|Hyr8hd|11|12|13|3|14|15|16|0|0|17|13|0|18|0|18|1|0|0|19|6|0|A|0|0|0|0|0|0|0|0|20|0|21|1|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|22|0|0|0|0|7|0|0|0|0|23|24|8|25|0|1|26|22|5|27|28|27|29|27|30|27|31|27|32|33|0|252|34|FUlReeu8O|25|0|1|26|22|3|-24|27|35|-28|36|0|252|34|FWguhina5|25|0|1|26|22|3|-24|-31|-28|37|0|252|34|FW9cs8QQc|25|0|1|26|22|3|-24|-31|-28|38|0|749|34|FW9cs8QQc|25|0|1|39|22|2|27|40|-28|41|0|340|34|FV4L2$Qzk|25|0|0|34|22|9|-24|-31|-28|27|42|27|43|27|44|-25|27|45|-38|46|0|252|34|FWzMJiJ_3|25|0|1|26|22|3|-24|-31|-28|47|0|252|34|FWzhhJjZK|25|0|0|34|22|3|-24|-28|27|48|49|0|252|34|FW1uiRGFm|50|0|51|19|52|53|54|0|1|1|1|52|55|-52|1|1|1|52|56|-52|1|1|1|52|57|-52|1|1|1|52|58|-52|1|1|1|52|59|-52|1|1|1|52|60|-52|1|1|1|52|61|-52|1|1|0|52|62|-52|1|1|1|52|63|-52|1|1|1|52|64|-52|1|1|1|52|65|-52|1|1|1|52|66|-52|1|1|1|52|67|-52|1|1|1|52|68|-52|1|1|1|52|69|-52|1|1|1|52|70|-52|1|1|1|52|71|-52|1|1|1|52|72|-52|1|1|1|V_MJuPB|73|0|-1|74|73|1|75|76|0|14|15|16|0|0|17|13|0|18|0|18|1|0|0|-15|0|A|0|0|0|0|0|0|0|0|-16|-17|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|-18|0|0|0|7|0|0|0|0|23|24|8|-22|-29|-32|-34|-36|-39|-45|-47|50|0|51|19|-51|-53|-54|-55|-56|-57|-58|-59|-60|-61|-62|-63|-64|-65|-66|-67|-68|-69|-70|V_MJuPD|73|0|-1|77|73|1|78|-73|79|15|16|0|0|17|13|0|18|0|18|1|0|0|-15|0|A|0|0|0|0|0|0|0|0|-16|-17|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|-18|0|0|0|7|0|0|0|0|80|81|113|82|0|0|83|1|0|0|0|84|1|85|2|86|87|86|88|85|0|0|89|90|91|27|92|0|"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Fri, 17 Nov 2017 22:43:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, max-age=0"
+            },
+            {
+              "name": "x-invoke-duration",
+              "value": "1102"
+            },
+            {
+              "name": "content-disposition",
+              "value": "attachment"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AE4kn78jOpqJgC25COWtEK8iuqipEqmGfB83CdTSEQMuW8SyZ7aMSNSY5Vlm4ejDKzKprOPOVrJ9YDWSIb4; expires=Thu, 15-Feb-2018 22:43:42 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AE4kn78WNZvcuFto0mG4Kc4jn-j_4PVENmyznUCG52CBL34_IpYbcU6nhu43xb-hyU2ngCCWLl-3K3Up0Eo; expires=Thu, 15-Feb-2018 22:43:42 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "1000"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 17 Nov 2017 22:43:42 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "SIDCC",
+              "value": "AE4kn78jOpqJgC25COWtEK8iuqipEqmGfB83CdTSEQMuW8SyZ7aMSNSY5Vlm4ejDKzKprOPOVrJ9YDWSIb4",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-02-15T22:43:42.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn78WNZvcuFto0mG4Kc4jn-j_4PVENmyznUCG52CBL34_IpYbcU6nhu43xb-hyU2ngCCWLl-3K3Up0Eo",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-02-15T22:43:42.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 2876,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1375
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.0315790292806892,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.52400003187359,
+          "wait": 1201.1429999256507,
+          "receive": 3.044000011868775,
+          "_blocked_queueing": 0.5789999850094318
+        },
+        "serverIPAddress": "74.125.206.100",
+        "connection": "1398872"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.782Z",
+        "time": 118.69722694752272,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google.com/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google.com"
+            },
+            {
+              "name": "cookie",
+              "value": "AID=AJHaeXL4-5gy3VDSBS5vXM6Wz6NHd11Ux5S0eAjmONA01DHXZz71xrw; CONSENT=YES+IL.en+20160815-07-0; _ga=GA1.1.138826730.1477901177; 1P_JAR=2017-11-16-8; HSID=ATDQqKMj6V3tx2dJn; SSID=AOnj4jYBapzt8yfrQ; APISID=O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg; SAPISID=lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar; SID=awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.; NID=117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP; S=adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ; SIDCC=AE4kn79B6vMtzVINOc_vT9rJcQPS-nnrbCsT7XxMjZtTUgFLoC7Drv3gSto0q85ohcjG4rWEP74D6aXbfB0"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJK2yQEIpbbJAQjEtskBCPqcygEIqZ3KAQjSncoBCKijygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "random",
+              "value": "1510958621648"
+            },
+            {
+              "name": "cv",
+              "value": "8"
+            },
+            {
+              "name": "fst",
+              "value": "1510956000000"
+            },
+            {
+              "name": "num",
+              "value": "1"
+            },
+            {
+              "name": "label",
+              "value": "lvtcCJmxnGgQkZ33vwM"
+            },
+            {
+              "name": "guid",
+              "value": "ON"
+            },
+            {
+              "name": "u_h",
+              "value": "900"
+            },
+            {
+              "name": "u_w",
+              "value": "1600"
+            },
+            {
+              "name": "u_ah",
+              "value": "860"
+            },
+            {
+              "name": "u_aw",
+              "value": "1600"
+            },
+            {
+              "name": "u_cd",
+              "value": "24"
+            },
+            {
+              "name": "u_his",
+              "value": "2"
+            },
+            {
+              "name": "u_tz",
+              "value": "120"
+            },
+            {
+              "name": "u_java",
+              "value": "false"
+            },
+            {
+              "name": "u_nplug",
+              "value": "4"
+            },
+            {
+              "name": "u_nmime",
+              "value": "5"
+            },
+            {
+              "name": "frm",
+              "value": "0"
+            },
+            {
+              "name": "url",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0"
+            },
+            {
+              "name": "ref",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "tiba",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "async",
+              "value": "1"
+            },
+            {
+              "name": "fmt",
+              "value": "4"
+            },
+            {
+              "name": "cdct",
+              "value": "2"
+            },
+            {
+              "name": "is_vtc",
+              "value": "1"
+            },
+            {
+              "name": "random",
+              "value": "2649891822"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "AID",
+              "value": "AJHaeXL4-5gy3VDSBS5vXM6Wz6NHd11Ux5S0eAjmONA01DHXZz71xrw",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CONSENT",
+              "value": "YES+IL.en+20160815-07-0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.1.138826730.1477901177",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2017-11-16-8",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "ATDQqKMj6V3tx2dJn",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AOnj4jYBapzt8yfrQ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn79B6vMtzVINOc_vT9rJcQPS-nnrbCsT7XxMjZtTUgFLoC7Drv3gSto0q85ohcjG4rWEP74D6aXbfB0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Fri, 17 Nov 2017 22:43:41 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "adclick_server"
+            },
+            {
+              "name": "status",
+              "value": "302"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=UTF-8"
+            },
+            {
+              "name": "location",
+              "value": "https://www.google.co.il/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822&ipr=y&ulfeg=y"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, max-age=43200"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "807"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 17 Nov 2017 22:43:41 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "https://www.google.co.il/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822&ipr=y&ulfeg=y",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1275
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.6002269595628602,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.28400006704032,
+          "wait": 117.27799999061972,
+          "receive": 1.5349999302998185,
+          "_blocked_queueing": 0.2269999822601676
+        },
+        "serverIPAddress": "216.58.205.196",
+        "connection": "1398107"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:41.903Z",
+        "time": 107.09115504939109,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google.co.il/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822&ipr=y&ulfeg=y",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/ads/user-lists/939380369/?random=1510958621648&cv=8&fst=1510956000000&num=1&label=lvtcCJmxnGgQkZ33vwM&guid=ON&u_h=900&u_w=1600&u_ah=860&u_aw=1600&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=4&u_nmime=5&frm=0&url=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0&ref=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&tiba=Google%20AdWords&async=1&fmt=4&cdct=2&is_vtc=1&random=2649891822&ipr=y&ulfeg=y"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google.co.il"
+            },
+            {
+              "name": "cookie",
+              "value": "OGPC=5062215-26:5062227-15:810031104-9:; SID=awWwtG9BxznJh1AV4y-XiVhWGuxox2BjaXVqvgyhC-T0NMFlWIHoSLqeJQkH59PpNsPvJw.; HSID=A83KrhY2k6oAIhOuM; SSID=AZyKn92L6Z9iqXsKe; APISID=O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg; SAPISID=lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar; CONSENT=YES+IL.en+20160815-07-0; NID=117=luovxTzBTQcSJqvZXU74AHlyadnF_T8AaZ2Il5607q1ely9AfRKr7ZD-GtBdxlYDZl1RmQ42ge1UXhGhoMFHKNl39pvgMeNvJFwslVwtzf0dZzltzH8KOIrAn1hURzqnLDI0UQ8-CdEgJhWGGheLuLDt4_j-XZmbLWQo8CV4etRazgzdTvG4KWzLPQG9iYB4iinj0-HoRwMCXanev3PACPwy-qh3j00884fmXmD1ezGnzR94rbKtOmbh9qrPUF8fjJmZRWR0fN00mmUZ03hnVW82lbBl98wofHLU8IUa5hBeEqnaA2y80ssPlfJIdw; 1P_JAR=2017-11-17-22"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJK2yQEIpbbJAQjEtskBCPqcygEIqZ3KAQjSncoBCKijygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "random",
+              "value": "1510958621648"
+            },
+            {
+              "name": "cv",
+              "value": "8"
+            },
+            {
+              "name": "fst",
+              "value": "1510956000000"
+            },
+            {
+              "name": "num",
+              "value": "1"
+            },
+            {
+              "name": "label",
+              "value": "lvtcCJmxnGgQkZ33vwM"
+            },
+            {
+              "name": "guid",
+              "value": "ON"
+            },
+            {
+              "name": "u_h",
+              "value": "900"
+            },
+            {
+              "name": "u_w",
+              "value": "1600"
+            },
+            {
+              "name": "u_ah",
+              "value": "860"
+            },
+            {
+              "name": "u_aw",
+              "value": "1600"
+            },
+            {
+              "name": "u_cd",
+              "value": "24"
+            },
+            {
+              "name": "u_his",
+              "value": "2"
+            },
+            {
+              "name": "u_tz",
+              "value": "120"
+            },
+            {
+              "name": "u_java",
+              "value": "false"
+            },
+            {
+              "name": "u_nplug",
+              "value": "4"
+            },
+            {
+              "name": "u_nmime",
+              "value": "5"
+            },
+            {
+              "name": "frm",
+              "value": "0"
+            },
+            {
+              "name": "url",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0"
+            },
+            {
+              "name": "ref",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "tiba",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "async",
+              "value": "1"
+            },
+            {
+              "name": "fmt",
+              "value": "4"
+            },
+            {
+              "name": "cdct",
+              "value": "2"
+            },
+            {
+              "name": "is_vtc",
+              "value": "1"
+            },
+            {
+              "name": "random",
+              "value": "2649891822"
+            },
+            {
+              "name": "ipr",
+              "value": "y"
+            },
+            {
+              "name": "ulfeg",
+              "value": "y"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "OGPC",
+              "value": "5062215-26:5062227-15:810031104-9:",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "awWwtG9BxznJh1AV4y-XiVhWGuxox2BjaXVqvgyhC-T0NMFlWIHoSLqeJQkH59PpNsPvJw.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "A83KrhY2k6oAIhOuM",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AZyKn92L6Z9iqXsKe",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CONSENT",
+              "value": "YES+IL.en+20160815-07-0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "117=luovxTzBTQcSJqvZXU74AHlyadnF_T8AaZ2Il5607q1ely9AfRKr7ZD-GtBdxlYDZl1RmQ42ge1UXhGhoMFHKNl39pvgMeNvJFwslVwtzf0dZzltzH8KOIrAn1hURzqnLDI0UQ8-CdEgJhWGGheLuLDt4_j-XZmbLWQo8CV4etRazgzdTvG4KWzLPQG9iYB4iinj0-HoRwMCXanev3PACPwy-qh3j00884fmXmD1ezGnzR94rbKtOmbh9qrPUF8fjJmZRWR0fN00mmUZ03hnVW82lbBl98wofHLU8IUa5hBeEqnaA2y80ssPlfJIdw",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2017-11-17-22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 17 Nov 2017 22:43:41 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "adclick_server"
+            },
+            {
+              "name": "content-type",
+              "value": "text/javascript; charset=UTF-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "attachment; filename=\"f.txt\""
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "63"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 43,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 126
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.8421549871563934,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.3280000528320697,
+          "wait": 105.19499995280057,
+          "receive": 0.7260000566020608,
+          "_blocked_queueing": 0.1550000160932541
+        },
+        "serverIPAddress": "216.58.205.163",
+        "connection": "1398225"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:42.978Z",
+        "time": 634.5357549395412,
+        "request": {
+          "method": "POST",
+          "url": "https://adwords.google.com/um/GetStarted/g?authuser=0&__u=8366573661&__c=6519561002",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "origin",
+              "value": "https://adwords.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "x-gwt-permutation",
+              "value": "CE05809FCF765752ADFEF2124C64CD4B"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "x-gwt-module-base",
+              "value": "https://adwords.google.com/um/GetStarted/com.google.ads.apps.usermgmt.getstarted.client.main.Module/"
+            },
+            {
+              "name": "cookie",
+              "value": "_pgar=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0; CONSENT=YES+IL.en+20160815-07-0; 1P_JAR=2017-11-16-8; gap%3AUA-37177323-1%3A18558082978=%7B%22mobile%22%3A%22%2B18553527879%22%2C%22display%22%3A%22(855)%20352-7879%22%2C%22expires%22%3A1510914099%7D; HSID=ATDQqKMj6V3tx2dJn; SSID=AOnj4jYBapzt8yfrQ; APISID=O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg; SAPISID=lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar; SAG=awWwtHtQwHvNy8b8JM9HzMAqaSfQcYW8-hwr7MrkhODAliIQO3Geg8G3ajce9T_vL7oREA.; adwordsReferralSource=sourceid=emp&subid=ww-ww-et-g-aw-a-tools-awhp!o2&clickid=sn-6r-og-il-11172017; SID=awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.; NID=117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP; _gat_UA-37177323-1=1; A=AIxWtxTJ40V6eyVuhkKbzBhTAdZ56TLoKkr5lqnHJ_ZdJ6rC0EY4yOzfMOT4QJcqk1WROsB4YYgnzOAeOtnxSMXT4pQfN6-DitYMvOHRQlOiW2DV0VzRN2uV3DVwPL_0rc7prNkp1NnIvongkgteuGAQ_f9KrXzIljfq1vnba1sDuqKEfbGfTRmeBa-2anA2zuY72vZU1Wtr; AdsUserLocale=en_US; S=adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ; SIDCC=AE4kn78WNZvcuFto0mG4Kc4jn-j_4PVENmyznUCG52CBL34_IpYbcU6nhu43xb-hyU2ngCCWLl-3K3Up0Eo; _ga=GA1.3.1574563537.1510908700; _gid=GA1.3.1683483841.1510908700"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CJK2yQEIpbbJAQjEtskBCPqcygEIqZ3KAQjSncoBCKijygE="
+            },
+            {
+              "name": "content-length",
+              "value": "5438"
+            },
+            {
+              "name": ":path",
+              "value": "/um/GetStarted/g?authuser=0&__u=8366573661&__c=6519561002"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "text/x-gwt-rpc; charset=UTF-8"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "adwords.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "authuser",
+              "value": "0"
+            },
+            {
+              "name": "__u",
+              "value": "8366573661"
+            },
+            {
+              "name": "__c",
+              "value": "6519561002"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "_pgar",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome%3F__u%3D8366573661%26__c%3D6519561002%26authuser%3D0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CONSENT",
+              "value": "YES+IL.en+20160815-07-0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "1P_JAR",
+              "value": "2017-11-16-8",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "gap%3AUA-37177323-1%3A18558082978",
+              "value": "%7B%22mobile%22%3A%22%2B18553527879%22%2C%22display%22%3A%22(855)%20352-7879%22%2C%22expires%22%3A1510914099%7D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "ATDQqKMj6V3tx2dJn",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AOnj4jYBapzt8yfrQ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "O6iPuo5ioMd1aqRV/A5KD4DIc-sHph9bKg",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "lnuk_q_2iZkbcHrP/Ar_Eq4P_gopFdq2Ar",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAG",
+              "value": "awWwtHtQwHvNy8b8JM9HzMAqaSfQcYW8-hwr7MrkhODAliIQO3Geg8G3ajce9T_vL7oREA.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "adwordsReferralSource",
+              "value": "sourceid=emp&subid=ww-ww-et-g-aw-a-tools-awhp!o2&clickid=sn-6r-og-il-11172017",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "awWwtHnhtIZLsxhekk3ktFDnHGS3Qqa8sEwGJHZkJHvqMMpgaKGb3-DeICXo-9cVPWNfHw.",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "117=jjOPpNnOprHggpU9xR8BfdzSIS5z7CFNpYT39vRZZRdQWOpsU0cnv-hEuJF0HqJT6mi71Mc1g4m8klHMr3s7vw0Zbg_RMqGUIZb9rsT17dQkdQKHJTrzWwvFRHzvWemFwY8cF582fLoFjXrMoA_k0Bf6lDV44hKr0e904bKolcBDzK3akRQ68KjheNF0oEdqtwzzT-weNEg5AM2_lDGWqgsNSeSSo_ER7qU0PGkEkNPgLnzU2KcBDMtIJrkZrfiEOZwsez04Z5FSc87TsTlnLuFfvk405ryP",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gat_UA-37177323-1",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "A",
+              "value": "AIxWtxTJ40V6eyVuhkKbzBhTAdZ56TLoKkr5lqnHJ_ZdJ6rC0EY4yOzfMOT4QJcqk1WROsB4YYgnzOAeOtnxSMXT4pQfN6-DitYMvOHRQlOiW2DV0VzRN2uV3DVwPL_0rc7prNkp1NnIvongkgteuGAQ_f9KrXzIljfq1vnba1sDuqKEfbGfTRmeBa-2anA2zuY72vZU1Wtr",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "AdsUserLocale",
+              "value": "en_US",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "adwords-usermgmt=u_lLXk0tZfOeXRhFzncPGkjBHBGFMKHb:billing-ui-v3=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ:billing-ui-v3-efe=UNNi7t4nnD6Ix2_Y7qZ3tK0rlV1lp0lZ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn78WNZvcuFto0mG4Kc4jn-j_4PVENmyznUCG52CBL34_IpYbcU6nhu43xb-hyU2ngCCWLl-3K3Up0Eo",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.1574563537.1510908700",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.3.1683483841.1510908700",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 5438,
+          "postData": {
+            "mimeType": "text/x-gwt-rpc; charset=UTF-8",
+            "text": "7|0|90|https://adwords.google.com/um/GetStarted/com.google.ads.apps.usermgmt.getstarted.client.main.Module/|22D5B3FA3CEBB378F43793C10A1E70DB|com.google.ads.api.gwt.rpc.client.BatchedInvocationService|invoke|com.google.ads.api.gwt.rpc.client.BatchedInvocationRequest/2983766987|com.google.ads.apps.common.shared.header.BatchRequestHeaderImpl/2595329959|java.util.HashMap/1797211028|com.google.ads.apps.common.shared.header.ApiHeaderType/3992732687|com.google.ads.apps.common.shared.header.BatchAdsApiRequestHeaderInfo/1561664655|com.google.ads.api.modules.request.headers.GrubbyHeader$ChangeIdMode/272930539|com.google.ads.apps.common.usagetracking.server.UsageTrackingService.logImpression, 2 other calls|f4y0solxqFIkEvLQyh7CxlsPg8o:1510958582073|java.util.ArrayList/4159755760|com.google.ads.apps.common.usagetracking.shared.UsageTrackingServiceGwt$ImpressionRequest/3960782202|com.google.ads.apps.common.shared.header.SingleAdsApiRequestHeader/4098801396|com.google.ads.apps.common.shared.header.ClientCacheHint/2402802613|com.google.ads.apps.common.shared.header.ServerCacheHint/3129959624|java.lang.Boolean/476441737|com.google.ads.api.modules.request.headers.ApiVersion/450371163|com.google.ads.api.modules.request.headers.GrubbyHeader$CustomerIdMode/45453300|com.google.ads.api.modules.request.headers.GrubbyHeader$DatabaseReadMode/1150601902|com.google.common.collect.RegularImmutableList/440499227|com.google.ads.common.logging.MetricEntries$ImpressionEntry/454587110|[Lcom.google.ads.common.logging.ApexExperimentMetrics;/1267822276|com.google.ads.common.logging.ApexExperimentMetrics/1204991806|TREATMENT|java.lang.String/2004016611|AWSM|AWN_INTERNALOPS|MCC|NOTIFICATIONS|UM|ADWORDS_NEXT_BILLING||CUES|ADWORDS_NEXT_MCC|ADWORDS_NEXT_INTERNALOPS|ADWORDS_NEXT_ACCESS_TO_ALL|TREATMENT_SIGNUP_FLOW_CLICKS_WITH_BADGES|CM|CM_GROWTH_MOBILE_PROMO|CT|PRIME|AWN_PRIME|AWN_CM|ADWORDS_NEXT|ADWORDS_NEXT_NEW_CUSTOMERS|KP|ADWORDS_NEXT_KEYWORD_PLANNER|https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0#oc|[Lcom.google.ads.common.logging.ExperimentMetrics;/2152658160|com.google.ads.common.logging.ExperimentMetrics/1213839764|enable-call-consent|com.google.common.collect.RegularImmutableMap/1085455152|remove-progress-bar|enable-appstore|orinoco-megablox|get-started-w-logo|show-estimated-reach-panel|expanded-text-ad|youtube-linked-accounts|show-top-ad-preview|enable-goldmine-auto-expand|u2-migration|default-opt-in|billing-all-countries|enable-auto-expand|rewire-guided-orinoco-billing-for-budgets-in-ads|mobile-compatible-orinoco|policy-certificate-expiration|target-cpa-suggestion|electrum-account-linking-ui|[Ljava.lang.String;/2600011424|Orinoco.oc.keywords-editor-more-keywords-loading-panel-hidden|oc.keywords-editor-more-keywords-loading-panel-hidden|com.google.ads.apps.common.uimode.shared.UiMode/4208379950|Orinoco.oc.keywords-editor-keywords-input-focused|oc.keywords-editor-keywords-input-focused|com.google.ads.apps.common.usagetracking.shared.UsageTrackingServiceGwt$UserActionRequest/1891030800|com.google.ads.common.logging.MetricEntries$UserActionEntry/1070575115|Action|com.google.ads.common.logging.ClientRpcMetrics/2534432823|com.google.ads.common.logging.SingleRpcMetric/3222394747|com.google.ads.apps.common.usagetracking.server.UsageTrackingService#logImpression|com.google.ads.api.services.targetingideas.TargetingIdeaService#get|com.google.common.collect.SingletonImmutableList/4247067418|com.google.ads.common.logging.DeferredRequestMetric/2057347971|boulder-load|/GetStarted/XCampaign?context=oc.keywords-editor-manual-keywords-added&|oc.keywords-editor-manual-keywords-added|1|2|3|4|1|5|5|6|B_5s71iVnA|12|7|1|8|0|9|A|10|2|GEmJsq|Hyr8hd|11|12|13|3|14|15|16|0|0|17|13|0|18|0|18|1|0|0|19|6|0|A|0|0|0|0|0|0|0|0|20|0|21|1|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|22|0|0|0|0|7|0|0|0|0|23|24|8|25|0|1|26|22|5|27|28|27|29|27|30|27|31|27|32|33|0|252|34|FUlReeu8O|25|0|1|26|22|3|-24|27|35|-28|36|0|252|34|FWguhina5|25|0|1|26|22|3|-24|-31|-28|37|0|252|34|FW9cs8QQc|25|0|1|26|22|3|-24|-31|-28|38|0|749|34|FW9cs8QQc|25|0|1|39|22|2|27|40|-28|41|0|340|34|FV4L2$Qzk|25|0|0|34|22|9|-24|-31|-28|27|42|27|43|27|44|-25|27|45|-38|46|0|252|34|FWzMJiJ_3|25|0|1|26|22|3|-24|-31|-28|47|0|252|34|FWzhhJjZK|25|0|0|34|22|3|-24|-28|27|48|49|0|252|34|FW1uiRGFm|50|0|51|19|52|53|54|0|1|1|1|52|55|-52|1|1|1|52|56|-52|1|1|1|52|57|-52|1|1|1|52|58|-52|1|1|1|52|59|-52|1|1|1|52|60|-52|1|1|1|52|61|-52|1|1|0|52|62|-52|1|1|1|52|63|-52|1|1|1|52|64|-52|1|1|1|52|65|-52|1|1|1|52|66|-52|1|1|1|52|67|-52|1|1|1|52|68|-52|1|1|1|52|69|-52|1|1|1|52|70|-52|1|1|1|52|71|-52|1|1|1|52|72|-52|1|1|1|V_MJuji|73|0|-1|74|73|1|75|76|0|14|15|16|0|0|17|13|0|18|0|18|1|0|0|-15|0|A|0|0|0|0|0|0|0|0|-16|-17|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|-18|0|0|0|7|0|0|0|0|23|24|8|-22|-29|-32|-34|-36|-39|-45|-47|50|0|51|19|-51|-53|-54|-55|-56|-57|-58|-59|-60|-61|-62|-63|-64|-65|-66|-67|-68|-69|-70|V_MJujo|73|0|-1|77|73|1|78|-73|79|15|16|0|0|17|13|0|18|0|18|1|0|0|-15|0|A|0|0|0|0|0|0|0|0|-16|-17|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|-18|0|0|0|7|0|0|0|0|80|1321|81|73|0|V_MJuPC|24|8|-22|-29|-32|-34|-36|-39|-45|-47|13|1|82|1080|-1|11|0|0|13|3|83|507|-1|84|-1|-1|507|83|509|-1|84|-1|-1|509|83|571|-1|85|-1|-1|571|5177|0|12|V_MJuQS|2876|18|2|V_MJujZ|1209|0|-1|-1|1241|1083|1080|50|13|0|0|86|87|A|V_MJuPy|V_MJuPy|V_MJuPJ|0|51|20|-51|-53|-54|-55|-56|-57|-58|-59|-60|-61|-62|-63|-64|-65|-66|-67|-68|-69|-70|52|88|-52|1|1|1|-1|89|89|1|13|0|90|0|3|-73|"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Fri, 17 Nov 2017 22:43:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, max-age=0"
+            },
+            {
+              "name": "x-invoke-duration",
+              "value": "533"
+            },
+            {
+              "name": "content-disposition",
+              "value": "attachment"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AE4kn7_-fapyXQugGHG_YlsEPJREJiS5wpFn8mMs3aGQ3JNYMFSgwWz5aErXh8y7nIuHc85OxX24anA8FvU; expires=Thu, 15-Feb-2018 22:43:42 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "set-cookie",
+              "value": "SIDCC=AE4kn7_dDBaeRhzz4pAf-5VUrcMqiWjHi_Tb24MpMDm_68Iu5IbREmpqkPFY2af5tab3-abdFiX4gnoDNE0; expires=Thu, 15-Feb-2018 22:43:42 GMT; path=/; domain=.google.com; priority=high"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "478"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 17 Nov 2017 22:43:42 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "SIDCC",
+              "value": "AE4kn7_-fapyXQugGHG_YlsEPJREJiS5wpFn8mMs3aGQ3JNYMFSgwWz5aErXh8y7nIuHc85OxX24anA8FvU",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-02-15T22:43:42.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SIDCC",
+              "value": "AE4kn7_dDBaeRhzz4pAf-5VUrcMqiWjHi_Tb24MpMDm_68Iu5IbREmpqkPFY2af5tab3-abdFiX4gnoDNE0",
+              "path": "/",
+              "domain": ".google.com",
+              "expires": "2018-02-15T22:43:42.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 1170,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 807
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 4.161755018867557,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.9149999823421195,
+          "wait": 630.0879999762401,
+          "receive": 1.370999962091446,
+          "_blocked_queueing": 0.754999928176403
+        },
+        "serverIPAddress": "74.125.206.100",
+        "connection": "1398872"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:42.995Z",
+        "time": 94.19951802142896,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-more-keywords-loading-panel-hidden&ea=oc.keywords-editor-more-keywords-loading-panel-hidden&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=777503747",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-more-keywords-loading-panel-hidden&ea=oc.keywords-editor-more-keywords-loading-panel-hidden&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=777503747"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "Orinoco.oc.keywords-editor-more-keywords-loading-panel-hidden"
+            },
+            {
+              "name": "ea",
+              "value": "oc.keywords-editor-more-keywords-loading-panel-hidden"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "777503747"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017930"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 72
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 11.995518066221887,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.2739999908953994,
+          "wait": 82.84499996807422,
+          "receive": 1.0849999962374568,
+          "_blocked_queueing": 0.5179999861866236
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      },
+      {
+        "startedDateTime": "2017-11-17T22:43:42.995Z",
+        "time": 96.88785700011067,
+        "request": {
+          "method": "GET",
+          "url": "https://www.google-analytics.com/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-keywords-input-focused&ea=oc.keywords-editor-keywords-input-focused&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=2101566956",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/collect?v=1&_v=j66&aip=1&a=253311472&t=event&_s=1&dl=https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome&dr=https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F&ul=en-us&de=UTF-8&dt=Google%20AdWords&sd=24-bit&sr=1600x900&vp=975x769&je=0&ec=Orinoco.oc.keywords-editor-keywords-input-focused&ea=oc.keywords-editor-keywords-input-focused&_u=SCCACAABB~&jid=&gjid=&cid=1574563537.1510908700&tid=UA-37177323-1&_gid=1683483841.1510908700&gtm=GbeDJXNX&z=2101566956"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,he;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://adwords.google.com/um/GetStarted/Home?__u=8366573661&__c=6519561002&authuser=0"
+            },
+            {
+              "name": ":authority",
+              "value": "www.google-analytics.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "1"
+            },
+            {
+              "name": "_v",
+              "value": "j66"
+            },
+            {
+              "name": "aip",
+              "value": "1"
+            },
+            {
+              "name": "a",
+              "value": "253311472"
+            },
+            {
+              "name": "t",
+              "value": "event"
+            },
+            {
+              "name": "_s",
+              "value": "1"
+            },
+            {
+              "name": "dl",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fum%2FGetStarted%2FHome"
+            },
+            {
+              "name": "dr",
+              "value": "https%3A%2F%2Fadwords.google.com%2Fhome%2Ftools%2Fkeyword-planner%2F"
+            },
+            {
+              "name": "ul",
+              "value": "en-us"
+            },
+            {
+              "name": "de",
+              "value": "UTF-8"
+            },
+            {
+              "name": "dt",
+              "value": "Google%20AdWords"
+            },
+            {
+              "name": "sd",
+              "value": "24-bit"
+            },
+            {
+              "name": "sr",
+              "value": "1600x900"
+            },
+            {
+              "name": "vp",
+              "value": "975x769"
+            },
+            {
+              "name": "je",
+              "value": "0"
+            },
+            {
+              "name": "ec",
+              "value": "Orinoco.oc.keywords-editor-keywords-input-focused"
+            },
+            {
+              "name": "ea",
+              "value": "oc.keywords-editor-keywords-input-focused"
+            },
+            {
+              "name": "_u",
+              "value": "SCCACAABB~"
+            },
+            {
+              "name": "jid",
+              "value": ""
+            },
+            {
+              "name": "gjid",
+              "value": ""
+            },
+            {
+              "name": "cid",
+              "value": "1574563537.1510908700"
+            },
+            {
+              "name": "tid",
+              "value": "UA-37177323-1"
+            },
+            {
+              "name": "_gid",
+              "value": "1683483841.1510908700"
+            },
+            {
+              "name": "gtm",
+              "value": "GbeDJXNX"
+            },
+            {
+              "name": "z",
+              "value": "2101566956"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 25 Oct 2017 14:11:32 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "age",
+              "value": "2017930"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 66
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 14.473856959259162,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.24800002574920121,
+          "wait": 82.43800001218914,
+          "receive": 1.728000002913177,
+          "_blocked_queueing": 0.8570000063627958
+        },
+        "serverIPAddress": "64.233.167.139",
+        "connection": "1398087"
+      }
+    ]
+  }
+}

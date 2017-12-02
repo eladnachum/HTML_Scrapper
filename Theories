@@ -1,0 +1,11 @@
+Theory 1:
+    main: testing staying on the top 25/50/100 coins - like תעודת סל
+    outcome:
+
+
+Theory 2:
+    main: testing alerts for coins that suddenly have a big variance in their behavior
+          maybe new coins... trying to catch thier first strike through...
+          maybe it can tell when to leave coins...
+
+

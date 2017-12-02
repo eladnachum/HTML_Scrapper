@@ -1,0 +1,43 @@
+1502723136726	geckodriver	INFO	geckodriver 0.18.0
+1502723136735	geckodriver	INFO	Listening on 127.0.0.1:59272
+1502723138733	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502723139745	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Eladnach\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Eladnach\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1502723141627	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1502723141708	Marionette	INFO	Listening on port 59278
+1502723141713	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502723141721	Marionette	INFO	Listening on port 59278
+1502723141722	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502723141866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502723141903	Marionette	DEBUG	loaded listener.js
+1502723141936	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1502723144416	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1502723144418	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502723144419	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502723144453	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=http%3A//www.yad2.co.il/Nadlan/sales.php%3FmultiSearch%3D1%26City%3D%25FA%25EC+%25E0%25E1%25E9%25E1+%25E9%25F4%25E5%26Neighborhood%3D%25E4%25F6%25F4%25E5%25EF+%25E4%25E7%25E3%25F9-+%25F6%25F4%25E5%25EF%26HomeTypeID%3D1%26fromRooms%3D%26untilRooms%3D%26fromPrice%3D500000%26untilPrice%3D2250000%26PriceType%3D1%26fromSquareMeter%3D45%26untilSquareMeter%3D%26FromFloor%3D%26ToFloor%3D%26Info%3D%26PriceOnly%3D1&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20server%20at%20www.yad2.co.il."
+[GPU 7012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Eladnach\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+hs.vrpath
+[Child 13572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 13172] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ng: http://www.yad2.co.il/dfpV3/script/SpecialSlotsManager.js?v=7.6, line 830: unreachable code after return statement
+JavaScript warning: http://www.yad2.co.il/dfpV3/script/SpecialSlotsManager.js?v=7.6, line 868: unreachable code after return statement
+JavaScript error: http://static.queit.in/sdk.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: http://www.yad2.co.il/dfpV3/script/SpecialSlotsManager.js?v=7.6, line 702: unreachable code after return statement
+JavaScript warning: http://www.yad2.co.il/dfpV3/script/SpecialSlotsManager.js?v=7.6, line 436: unreachable code after return statement
+JavaScript warning: http://www.yad2.co.il/dfpV3/script/DesktopMediaManager.js?v=7.6, line 489: unreachable code after return statement
+JavaScript warning: http://www.yad2.co.il/Nadlan/sales.php, line 4115: unreachable code after return statement
+JavaScript warning: http://www.yad2.co.il/Nadlan/sales.php, line 4115: unreachable code after return statement
