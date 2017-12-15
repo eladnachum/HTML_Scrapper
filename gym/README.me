@@ -1,0 +1,34 @@
+
+Using AWS Lambda to execute the handler function in gym_scrapper.py
+
+* follow this link: 
+https://andypi.co.uk/2016/07/20/using-aws-lambda-to-run-python-scripts-instead-of-local-cron/
+
+Instructions for modifications:
+-------------------------------
+1. change the code
+	- pay attention that Sunday classes code and the other days are different in the 'week_flag' value
+
+2. in order to zip all the code and the required packages (like requests) use virtualenv:
+	- virtualenv env
+	- source env/bin/activate
+	- pip install requests (and all packages thata are imported in gym_scrapper.py)
+	- zip gym.zip gym_scrapper.py
+	- zip -r gym.zip helper.py
+	- cd env/lib/python2.7/site-packages/
+		- zip -r ../../../../gym.zip *
+		(important to do it within site-packages....not sure why)
+3. upload gym.zip to lambda function (test it)
+
+
+Cloud watch rules:
+-----------------
+triggers the lambda function based on cron strings
+- cron string are a bit diffrenet because it adds the 6-th element -the year)
+- follow this link:
+  https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html#CronExpressions
+
+currently running 3 times a week. 
+each one a day before the requested class.
+hour is 2 hours earlier for it is GMT time
+

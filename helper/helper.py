@@ -23,7 +23,10 @@ def HAR_to_dict (HAR):
 	for kv in HAR:
 		k = kv['name']
 		v = kv['value']
-		out[k]=v
+		if v is "null":
+			out[k]=None
+		else:
+			out[k]=v
 	return out
 
 

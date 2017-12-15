@@ -1,0 +1,28 @@
+{"status":"1",
+"userid":14611,
+"user_p_name":"\u05d0\u05dc\u05d4",
+"user_token":"6478764a7dbf4c6f828f2070bd774c47",
+"user_l_name":"\u05d0\u05dc\u05e4\u05e1\u05d9",
+"user_info":
+	{"CompanyID":201,
+	"BranchID":1,
+	"ID":14611,
+	"FirstName":"\u05d0\u05dc\u05d4",
+	"LastName":"\u05d0\u05dc\u05e4\u05e1\u05d9",
+	"MobilePhone":"050-7609679","HomePhone":" ",
+	"WorkPhone":" ",
+	"CardNumber":0,
+	"Email":"alfasi21@hotmail.com",
+	"DateOfBirth":"1986-07-28T00:00:00",
+	"SignedRegulations":false,
+	"SignedRetulationsInt":null,"HasMedical":false,"PaymentLeft":0,
+	"HasTrainingPlan":false,"IsInsured":false,
+	"InsuranceEndDate":null,
+	"CityName":"\u05ea\u05dc \u05d0\u05d1\u05d9\u05d1",
+	"HouseNumber":0,
+	"GroupCode":0,
+	"IDNumber":21967583,
+	"NeighborhoodCode":null,
+	"Cars":{}
+	}
+}

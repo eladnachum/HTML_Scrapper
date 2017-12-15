@@ -23,7 +23,11 @@ def HAR_to_dict (HAR):
 	for kv in HAR:
 		k = kv['name']
 		v = kv['value']
-		if k not in [':authority',':method',':scheme',':path']:
-			out[k]=v
+		if k not in ['bllll']:#':authority',':method',':scheme',':path']:
+			if v is "null":
+				out[k]=None
+			else:
+				out[k]=v
 	return out
+
 
