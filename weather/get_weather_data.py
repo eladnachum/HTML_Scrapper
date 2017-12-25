@@ -80,6 +80,58 @@ def get_weather_daily_data(date_str):
 
   return daily_data
 
+
+def get_weather_monthly_data(month,year):
+  from time import strptime
+
+  my_request['url'] = "https://www.wunderground.com/history/airport/LLBG/{year}/{month}/1/MonthlyHistory.html?&reqdb.zip=&reqdb.magic=&reqdb.wmo=".format(month=month,year=year)
+  my_request['headers'] = HAR_to_dict(manual_requests[0]['request']['headers'])
+  my_request['cookies'] = HAR_to_dict(manual_requests[0]['request']['cookies'])
+
+  response = requests.get(url=my_request['url'], headers=my_request['headers'], cookies=my_request['cookies'])
+  tree = html.fromstring(response.content)
+
+  #check we got the right mothly info  
+  page_year = tree.xpath('//*[@id="obsTable"]/thead/tr/th[1]')[0].text
+  page_month = tree.xpath('//*[@id="obsTable"]/tbody[1]/tr/td[1]')[0].text
+  if ((month != strptime(page_month,'%b').tm_mon) or (int(page_year) != year)):
+    print "Error. Got wrong month/year ({page_month}/{page_year}) instead of {month}/{year}".format(month=month,year=year,page_year=page_year,page_month=page_month)
+    return None
+  
+  #loop over rows (days)
+  fields = ['Temp','DewPoint','Humidity','SeaLevelPress','Visibility','Wind','Precip','Events']
+  fields_xpath_suffixes = ['td[3]/span','td[6]/span','td[9]/span','td[12]/span','td[15]/span','td[18]/span','td[20]/span','td[21]']
+  data = {}
+
+  idx = 2
+  while (True):
+    day_elem = tree.xpath('//*[@id="obsTable"]/tbody[{row}]/tr/td[1]/a'.format(row=idx))
+    #if empty => no more days
+    if (not day_elem):
+      break
+    
+    day = day_elem[0].text
+
+    day_data={}
+    for field,field_xpath_suffix in zip(fields,fields_xpath_suffixes):
+          xpath = '//*[@id="obsTable"]/tbody[{row}]/tr/{xpath_suffix}'.format(row=idx,xpath_suffix=field_xpath_suffix)
+          try:
+            day_data[field]=tree.xpath(xpath)[0].text.replace('&nbsp;',' ')
+          except:
+              raise
+    
+    data[day] = day_data
+    idx = idx + 1
+
+  return data
+
+
+
+
+
+
+
+
 #get daily data for range of dates
 def get_weather_data(start_date_str,end_date_str):
   end_date_arr = end_date_str.split('/')
@@ -91,15 +143,13 @@ def get_weather_data(start_date_str,end_date_str):
   tree = html.fromstring(response.content)
   
   fields = ['Temp','DewPoint','Humidity','SeaLevelPress','Visibility','Wind','Precip','Events']
-  #xpath = //*[@id="obsTable"]/tbody[ROW_NUM]/tr/td[COLUMN_NUM]
-  #xpath_first_field = //*[@id="obsTable"]/tbody[ROW_NUM]/tr/td[1]/a
-  #first field will be a-href if its day and if not its a new month
-  #if month is DEC then forward the year
+
 
 
   a = tree.xpath(xpath)
   print a[0].attrib['href']
   print a[0].text
+
 
   #loop over rows
   row_num=1
@@ -108,7 +158,7 @@ def get_weather_data(start_date_str,end_date_str):
   while(True):
     first_field = tree.xpath('//*[@id="obsTable"]/tbody[{row_num}]/tr/td[1]/a'.format(row_num=row_num))
     if (not first_field):
-      #means it's a new month
+      #means it's a new month (regular td instead of a-href)
       if curr_month == 12:
         curr_year = curr_year + 1
       else:
@@ -120,7 +170,7 @@ def get_weather_data(start_date_str,end_date_str):
       for col_indx,field in enumerate(fields):
         date_key = "{year}/{month}/{day}".format(year=curr_year,month=curr_month,day=first_field[0].text)
         val = tree.xpath('//*[@id="obsTable"]/tbody[{row_num}]/tr/td[{col}]'.format(row_num=row_num,col=col_indx))
-        row_data[date_key].update(fields[i]: val)
+        #row_data[date_key].update(fields[i]: val)
 
 
   return
@@ -136,13 +186,22 @@ my_request = {}
 weather_data = {}
 
 
+start_date = date(2016, 12, 5)
+end_date = date(2017, 1, 7)
+
+from dateutil.relativedelta import relativedelta
+date = start_date
+while date < end_date:
+  date_key = "{year}/{month}".format(year=date.year,month=date.month)
+  weather_data[date_key] = get_weather_monthly_data(date.month,date.year)
+  date += relativedelta(months=1)
+
+print json.dumps(weather_data,indent=4)
+sys.exit()
 
 #get history data
 get_weather_data("2016/1/3","2017/2/4")
-sys.exit()
 
-start_date = date(2017, 12, 5)
-end_date = date(2017, 12, 6)
 
 #get daily conditions (for clouds)
 for single_date in daterange(start_date, end_date):
