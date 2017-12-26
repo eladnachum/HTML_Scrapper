@@ -23,11 +23,46 @@ def daterange(start_date, end_date):
         yield start_date + timedelta(n)
 
 def handle_conditions_string(conditions_string):
+        num = 0
+        sum = 0
         codes = {'FEW': 1.5,'SCT': 3.5,'BKN': 6,'OVC': 8}
         for code in codes:
           if code in conditions_string:
-            return codes[code]
-        return None
+            sum += codes[code]
+            num +=1
+        if sum == 0 or sum is None:
+          return None
+        else:
+          return sum/num
+
+#key is date (2017/3/14). value is weather data dict. csv created columns are date and all data fields
+def write_weather_dict_to_csv(weather_data):
+    import csv
+    #weather_data={"date1":{"cl1":"v1","cl2":"v2","cl3":"v3"},"date2":{"cl1":"va","cl2":"vb","cl3":"vc"}}
+
+    #list of fields names for the csv
+    fieldnames = ['date']
+    #add the data keys - the dict keys of each day
+    fieldnames.extend(weather_data[weather_data.keys()[0]].keys())
+
+    listWriter = csv.DictWriter(
+       open('test.csv', 'wb'),
+       fieldnames=fieldnames,
+       delimiter=',',
+       quotechar='|',
+       quoting=csv.QUOTE_MINIMAL
+    )
+
+    #wrtie the columns names row
+    listWriter.writerow(dict(zip(fieldnames,fieldnames)))
+
+    #write all rows
+    for k in weather_data:
+        row = weather_data[k]
+        row.update({"date":k})
+        print row
+        listWriter.writerow(row)
+
 
 #get daily/hourly data for each day 
 def get_weather_daily_data(date_str):
@@ -59,6 +94,7 @@ def get_weather_daily_data(date_str):
         code = handle_conditions_string(conditions_string)
       else:
         code = 0
+
       data['conditions_details'] = {'code': code,'str': conditions_string}
       
       daily_data[data['Time']] = data
@@ -73,12 +109,8 @@ def get_weather_daily_data(date_str):
     if time['conditions_details']['code'] is not None: 
       sum = sum + time['conditions_details']['code']
       len = len +1
-  print i
-  print sum
-  print len
-  return sum/len
 
-  return daily_data
+  return sum/len
 
 
 def get_weather_monthly_data(month,year):
@@ -98,38 +130,21 @@ def get_weather_monthly_data(month,year):
     print "Error. Got wrong month/year ({page_month}/{page_year}) instead of {month}/{year}".format(month=month,year=year,page_year=page_year,page_month=page_month)
     return None
   
-  #loop over rows (days)
-  fields = ['Temp','DewPoint','Humidity','SeaLevelPress','Visibility','Wind','Precip','Events']
-  fields_xpath_suffixes = ['td[3]/span','td[6]/span','td[9]/span','td[12]/span','td[15]/span','td[18]/span','td[20]/span','td[21]']
   data = {}
-
+  fields = ['Day','Temp_H','Temp_A','Temp_M','DewPoint_H','DewPoint_A','DewPoint_M','Humidity_H','Humidity_A','Humidity_M','SeaLevelPress_H','SeaLevelPress_A','SeaLevelPress_M','Visibility_H','Visibility_A','Visibility_M','Wind_H','Wind_A','Wind_M','Precip','Events']
+  #fields_xpath_suffixes = ['td[1]',td[3]/span','td[6]/span','td[9]/span','td[12]/span','td[15]/span','td[18]/span','td[20]/span','td[21]']
+  
   idx = 2
   while (True):
-    day_elem = tree.xpath('//*[@id="obsTable"]/tbody[{row}]/tr/td[1]/a'.format(row=idx))
-    #if empty => no more days
-    if (not day_elem):
+    columns = [td.text_content().strip() for td in tree.xpath('//*[@id="obsTable"]/tbody[{row}]/tr/td'.format(row=idx))]
+    if (not columns):
       break
-    
-    day = day_elem[0].text
 
-    day_data={}
-    for field,field_xpath_suffix in zip(fields,fields_xpath_suffixes):
-          xpath = '//*[@id="obsTable"]/tbody[{row}]/tr/{xpath_suffix}'.format(row=idx,xpath_suffix=field_xpath_suffix)
-          try:
-            day_data[field]=tree.xpath(xpath)[0].text.replace('&nbsp;',' ')
-          except:
-              raise
-    
-    data[day] = day_data
-    idx = idx + 1
+    date_key = "{year}/{month}/{day}".format(year=year,month=month,day=columns[0])
+    data[date_key] = dict(zip(fields,columns))
+    idx = idx + 1  
 
   return data
-
-
-
-
-
-
 
 
 #get daily data for range of dates
@@ -186,21 +201,19 @@ my_request = {}
 weather_data = {}
 
 
-start_date = date(2016, 12, 5)
-end_date = date(2017, 1, 7)
+start_date = date(2017, 11, 1)
+end_date = date(2017, 12, 2)
+
+
 
 from dateutil.relativedelta import relativedelta
 date = start_date
 while date < end_date:
-  date_key = "{year}/{month}".format(year=date.year,month=date.month)
-  weather_data[date_key] = get_weather_monthly_data(date.month,date.year)
+  weather_data.update(get_weather_monthly_data(date.month,date.year))
   date += relativedelta(months=1)
 
 print json.dumps(weather_data,indent=4)
 sys.exit()
-
-#get history data
-get_weather_data("2016/1/3","2017/2/4")
 
 
 #get daily conditions (for clouds)
@@ -209,4 +222,10 @@ for single_date in daterange(start_date, end_date):
   weather_data[date_str] = get_weather_daily_data(date_str)
 
 print json.dumps(weather_data,indent=4)
+sys.exit()
+
+
+#get history data
+get_weather_data("2016/1/3","2017/2/4")
+
 
