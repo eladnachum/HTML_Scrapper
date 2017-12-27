@@ -1,0 +1,825 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2017-12-26T18:42:55.055Z",
+        "id": "page_1",
+        "title": "http://www.bizportal.co.il/capitalmarket/indices/transactions/33333333",
+        "pageTimings": {
+          "onContentLoad": null,
+          "onLoad": null
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2017-12-26T18:44:47.765Z",
+        "time": 153.97333301536855,
+        "request": {
+          "method": "GET",
+          "url": "http://ping.chartbeat.net/ping?h=bizportal.co.il&p=%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333&u=BNYTeRD4RVGLCA6P3K&d=bizportal.co.il&g=49505&g0=Stock&n=1&f=00001&c=1.7&x=1401&m=1651&y=3466&o=1005&w=739&j=45&R=1&W=0&I=0&E=63&e=6&r=&KK=870::1824::B1nYOvDrlx4ZdqZI0cG8ACIt74y::::c::http%3A%2F%2Fwww.bizportal.co.il%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333::CjGCzjUxbMTDJQUReBJ6LvqDZGK8E::&b=10608&t=CEaO1lsVAl7Bb5bQyC_1OCDCm9Jtu&V=97&tz=-120&sn=24&eM=03ff&eD=010d&EE=63&sv=CpVTqjDi_geBCC1jWRanCv_QlU1&_",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Referer",
+              "value": "http://www.bizportal.co.il/capitalmarket/indices/transactions/33333333"
+            },
+            {
+              "name": "Host",
+              "value": "ping.chartbeat.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9,he;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "h",
+              "value": "bizportal.co.il"
+            },
+            {
+              "name": "p",
+              "value": "%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333"
+            },
+            {
+              "name": "u",
+              "value": "BNYTeRD4RVGLCA6P3K"
+            },
+            {
+              "name": "d",
+              "value": "bizportal.co.il"
+            },
+            {
+              "name": "g",
+              "value": "49505"
+            },
+            {
+              "name": "g0",
+              "value": "Stock"
+            },
+            {
+              "name": "n",
+              "value": "1"
+            },
+            {
+              "name": "f",
+              "value": "00001"
+            },
+            {
+              "name": "c",
+              "value": "1.7"
+            },
+            {
+              "name": "x",
+              "value": "1401"
+            },
+            {
+              "name": "m",
+              "value": "1651"
+            },
+            {
+              "name": "y",
+              "value": "3466"
+            },
+            {
+              "name": "o",
+              "value": "1005"
+            },
+            {
+              "name": "w",
+              "value": "739"
+            },
+            {
+              "name": "j",
+              "value": "45"
+            },
+            {
+              "name": "R",
+              "value": "1"
+            },
+            {
+              "name": "W",
+              "value": "0"
+            },
+            {
+              "name": "I",
+              "value": "0"
+            },
+            {
+              "name": "E",
+              "value": "63"
+            },
+            {
+              "name": "e",
+              "value": "6"
+            },
+            {
+              "name": "r",
+              "value": ""
+            },
+            {
+              "name": "KK",
+              "value": "870::1824::B1nYOvDrlx4ZdqZI0cG8ACIt74y::::c::http%3A%2F%2Fwww.bizportal.co.il%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333::CjGCzjUxbMTDJQUReBJ6LvqDZGK8E::"
+            },
+            {
+              "name": "b",
+              "value": "10608"
+            },
+            {
+              "name": "t",
+              "value": "CEaO1lsVAl7Bb5bQyC_1OCDCm9Jtu"
+            },
+            {
+              "name": "V",
+              "value": "97"
+            },
+            {
+              "name": "tz",
+              "value": "-120"
+            },
+            {
+              "name": "sn",
+              "value": "24"
+            },
+            {
+              "name": "eM",
+              "value": "03ff"
+            },
+            {
+              "name": "eD",
+              "value": "010d"
+            },
+            {
+              "name": "EE",
+              "value": "63"
+            },
+            {
+              "name": "sv",
+              "value": "CpVTqjDi_geBCC1jWRanCv_QlU1"
+            },
+            {
+              "name": "_",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": 891,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "43"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 43,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 170,
+          "bodySize": 43,
+          "_transferSize": 213
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.389332990424013,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.25900002219714,
+          "wait": 151.39499999349937,
+          "receive": 0.9300000092480332,
+          "_blocked_queueing": 0.3330000035930425
+        },
+        "serverIPAddress": "184.72.223.247",
+        "connection": "122219",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2017-12-26T18:44:47.774Z",
+        "time": 2618.934501005948,
+        "request": {
+          "method": "GET",
+          "url": "http://www.bizportal.co.il/Quote/Transactions/HistoricalRates_AjaxBinding_Read/33333333?startD=14%2F11%2F2017&endD=19%2F11%2F2017&take=20&skip=0&page=1&pageSize=20&sort%5B0%5D%5Bfield%5D=DealDate&sort%5B0%5D%5Bdir%5D=desc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=uxgyys3qzw4ipf0sqq1qhnnw; __utma=152925482.1819098200.1514313579.1514313579.1514313579.1; __utmc=152925482; __utmz=152925482.1514313579.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=152925482.|5=isUserLoggedIn=NO=1; __utmt=1; _ga=GA1.3.1819098200.1514313579; _gid=GA1.3.679957095.1514313581; 94622903-ehtoken=SharedAccessSignature sr=prod-sb-appanalytics-us1.servicebus.windows.net&sig=HjQap1i0RIVaKWT%2bL3lj2kB%2bs484QSz%2bmixED3dPW%2fs%3d&se=1514316794&skn=all; zdSessionId_94622903=a1bcd5ba-9954-49db-a2fd-3618da29e36e; trc_cookie_storage=taboola%2520global%253Auser-id%3De29f8602-7966-493f-91db-0931d85cba81-tuct1202cee; uid=756814400; _cb_ls=1; _cb=BNYTeRD4RVGLCA6P3K; _cb_svref=null; ServerId=1936923973; _chartbeat2=.1514313586088.1514313785807.1.CpVTqjDi_geBCC1jWRanCv_QlU1; __utmb=152925482.8.9.1514313795499; TScb3c7c=a7f227bc203a27fbf1be442c50a3926d639519f00dc8fcb95a42726136af3f5e12e230c2b75a4107a78894ba; _chartbeat5=870,1824,%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,http%3A%2F%2Fwww.bizportal.co.il%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,B1nYOvDrlx4ZdqZI0cG8ACIt74y,,c,CjGCzjUxbMTDJQUReBJ6LvqDZGK8E,bizportal.co.il,"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "www.bizportal.co.il"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9,he;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://www.bizportal.co.il/capitalmarket/indices/transactions/33333333"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "startD",
+              "value": "15%2F11%2F2017"
+            },
+            {
+              "name": "endD",
+              "value": "19%2F11%2F2017"
+            },
+            {
+              "name": "take",
+              "value": "20"
+            },
+            {
+              "name": "skip",
+              "value": "0"
+            },
+            {
+              "name": "page",
+              "value": "1"
+            },
+            {
+              "name": "pageSize",
+              "value": "20"
+            },
+            {
+              "name": "sort%5B0%5D%5Bfield%5D",
+              "value": "DealDate"
+            },
+            {
+              "name": "sort%5B0%5D%5Bdir%5D",
+              "value": "desc"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "uxgyys3qzw4ipf0sqq1qhnnw",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "152925482.1819098200.1514313579.1514313579.1514313579.1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "152925482",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "152925482.1514313579.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmv",
+              "value": "152925482.|5=isUserLoggedIn=NO=1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmt",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.1819098200.1514313579",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.3.679957095.1514313581",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "94622903-ehtoken",
+              "value": "SharedAccessSignature sr=prod-sb-appanalytics-us1.servicebus.windows.net&sig=HjQap1i0RIVaKWT%2bL3lj2kB%2bs484QSz%2bmixED3dPW%2fs%3d&se=1514316794&skn=all",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "zdSessionId_94622903",
+              "value": "a1bcd5ba-9954-49db-a2fd-3618da29e36e",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "trc_cookie_storage",
+              "value": "taboola%2520global%253Auser-id%3De29f8602-7966-493f-91db-0931d85cba81-tuct1202cee",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "uid",
+              "value": "756814400",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_cb_ls",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_cb",
+              "value": "BNYTeRD4RVGLCA6P3K",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_cb_svref",
+              "value": "null",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ServerId",
+              "value": "1936923973",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_chartbeat2",
+              "value": ".1514313586088.1514313785807.1.CpVTqjDi_geBCC1jWRanCv_QlU1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "152925482.8.9.1514313795499",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "TScb3c7c",
+              "value": "a7f227bc203a27fbf1be442c50a3926d639519f00dc8fcb95a42726136af3f5e12e230c2b75a4107a78894ba",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_chartbeat5",
+              "value": "870,1824,%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,http%3A%2F%2Fwww.bizportal.co.il%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,B1nYOvDrlx4ZdqZI0cG8ACIt74y,,c,CjGCzjUxbMTDJQUReBJ6LvqDZGK8E,bizportal.co.il,",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1784,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 26 Dec 2017 18:44:13 GMT"
+            },
+            {
+              "name": "X-AspNetMvc-Version",
+              "value": "5.2"
+            },
+            {
+              "name": "X-AspNet-Version",
+              "value": "4.0.30319"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "X-UA-Compatible",
+              "value": "IE=edge"
+            },
+            {
+              "name": "Content-Length",
+              "value": "590"
+            },
+            {
+              "name": "Expires",
+              "value": "-1"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 590,
+            "mimeType": "application/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 261,
+          "bodySize": 590,
+          "_transferSize": 851
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.9555009928590192,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.39699999615549997,
+          "wait": 2615.4110000061337,
+          "receive": 1.1710000107996166,
+          "_blocked_queueing": 0.5010000022593886
+        },
+        "serverIPAddress": "192.118.97.45",
+        "connection": "118537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2017-12-26T18:44:47.775Z",
+        "time": 3212.0811390051967,
+        "request": {
+          "method": "GET",
+          "url": "http://www.bizportal.co.il/Quote/Transactions/HistoricalRates?fromDate=15%2F11%2F2017&toDate=19%2F11%2F2017&stockID=33333333&period=%D7%A9%D7%91%D7%95%D7%A2%D7%99",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=uxgyys3qzw4ipf0sqq1qhnnw; __utma=152925482.1819098200.1514313579.1514313579.1514313579.1; __utmc=152925482; __utmz=152925482.1514313579.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=152925482.|5=isUserLoggedIn=NO=1; __utmt=1; _ga=GA1.3.1819098200.1514313579; _gid=GA1.3.679957095.1514313581; 94622903-ehtoken=SharedAccessSignature sr=prod-sb-appanalytics-us1.servicebus.windows.net&sig=HjQap1i0RIVaKWT%2bL3lj2kB%2bs484QSz%2bmixED3dPW%2fs%3d&se=1514316794&skn=all; zdSessionId_94622903=a1bcd5ba-9954-49db-a2fd-3618da29e36e; trc_cookie_storage=taboola%2520global%253Auser-id%3De29f8602-7966-493f-91db-0931d85cba81-tuct1202cee; uid=756814400; _cb_ls=1; _cb=BNYTeRD4RVGLCA6P3K; _cb_svref=null; ServerId=1936923973; _chartbeat2=.1514313586088.1514313785807.1.CpVTqjDi_geBCC1jWRanCv_QlU1; __utmb=152925482.8.9.1514313795499; TScb3c7c=a7f227bc203a27fbf1be442c50a3926d639519f00dc8fcb95a42726136af3f5e12e230c2b75a4107a78894ba; _chartbeat5=870,1824,%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,http%3A%2F%2Fwww.bizportal.co.il%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,B1nYOvDrlx4ZdqZI0cG8ACIt74y,,c,CjGCzjUxbMTDJQUReBJ6LvqDZGK8E,bizportal.co.il,"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "www.bizportal.co.il"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9,he;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://www.bizportal.co.il/capitalmarket/indices/transactions/33333333"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "fromDate",
+              "value": "15%2F11%2F2017"
+            },
+            {
+              "name": "toDate",
+              "value": "19%2F11%2F2017"
+            },
+            {
+              "name": "stockID",
+              "value": "33333333"
+            },
+            {
+              "name": "period",
+              "value": "%D7%A9%D7%91%D7%95%D7%A2%D7%99"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "uxgyys3qzw4ipf0sqq1qhnnw",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "152925482.1819098200.1514313579.1514313579.1514313579.1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "152925482",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "152925482.1514313579.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmv",
+              "value": "152925482.|5=isUserLoggedIn=NO=1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmt",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.1819098200.1514313579",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.3.679957095.1514313581",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "94622903-ehtoken",
+              "value": "SharedAccessSignature sr=prod-sb-appanalytics-us1.servicebus.windows.net&sig=HjQap1i0RIVaKWT%2bL3lj2kB%2bs484QSz%2bmixED3dPW%2fs%3d&se=1514316794&skn=all",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "zdSessionId_94622903",
+              "value": "a1bcd5ba-9954-49db-a2fd-3618da29e36e",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "trc_cookie_storage",
+              "value": "taboola%2520global%253Auser-id%3De29f8602-7966-493f-91db-0931d85cba81-tuct1202cee",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "uid",
+              "value": "756814400",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_cb_ls",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_cb",
+              "value": "BNYTeRD4RVGLCA6P3K",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_cb_svref",
+              "value": "null",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ServerId",
+              "value": "1936923973",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_chartbeat2",
+              "value": ".1514313586088.1514313785807.1.CpVTqjDi_geBCC1jWRanCv_QlU1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "152925482.8.9.1514313795499",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "TScb3c7c",
+              "value": "a7f227bc203a27fbf1be442c50a3926d639519f00dc8fcb95a42726136af3f5e12e230c2b75a4107a78894ba",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_chartbeat5",
+              "value": "870,1824,%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,http%3A%2F%2Fwww.bizportal.co.il%2Fcapitalmarket%2Findices%2Ftransactions%2F33333333,B1nYOvDrlx4ZdqZI0cG8ACIt74y,,c,CjGCzjUxbMTDJQUReBJ6LvqDZGK8E,bizportal.co.il,",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1725,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 26 Dec 2017 18:44:13 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-AspNetMvc-Version",
+              "value": "5.2"
+            },
+            {
+              "name": "X-AspNet-Version",
+              "value": "4.0.30319"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Expires",
+              "value": "-1"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Content-Length",
+              "value": "375"
+            },
+            {
+              "name": "X-UA-Compatible",
+              "value": "IE=edge"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 488,
+            "mimeType": "text/html",
+            "compression": 113
+          },
+          "redirectURL": "",
+          "headersSize": 301,
+          "bodySize": 375,
+          "_transferSize": 676
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.3061389910872063,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.34600001526997026,
+          "wait": 3208.7089999986347,
+          "receive": 1.720000000204891,
+          "_blocked_queueing": 1.1389999999664724
+        },
+        "serverIPAddress": "192.118.97.45",
+        "connection": "118533",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}

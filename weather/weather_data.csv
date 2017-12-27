@@ -1,0 +1,5 @@
+date,DewPoint_H,DewPoint_M,Visibility_A,Humidity_A,Humidity_M,Visibility_M,SeaLevelPress_M,SeaLevelPress_H,Events,Humidity_H,Visibility_H,Day,Temp_M,Temp_H,Temp_A,Precip,CloudsCode,Wind_A,Wind_M,DewPoint_A,Wind_H,SeaLevelPress_A
+2017/12/26,8,4,10,63,27,10,1020,1027,,93,10,26,7,22,14,0.00,0,6,-,7,19,1024
+2017/12/25,10,6,10,73,45,7,1017,1026,Rain,94,10,25,10,17,13,0.00,3.041666666666667,18,42,8,35,1021
+2017/12/24,14,8,9,76,50,4,1013,1016,Rain,100,10,24,13,18,16,5.08,3.985185185185185,18,39,11,40,1014
+2017/12/23,17,3,8,61,31,6,1012,1015,,88,10,23,14,23,18,0.00,1.4,8,-,11,14,1013

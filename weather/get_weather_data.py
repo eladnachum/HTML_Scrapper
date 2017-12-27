@@ -36,7 +36,7 @@ def handle_conditions_string(conditions_string):
           return sum/num
 
 #key is date (2017/3/14). value is weather data dict. csv created columns are date and all data fields
-def write_weather_dict_to_csv(weather_data):
+def write_weather_dict_to_csv(weather_data,csv_file_name):
     import csv
     #weather_data={"date1":{"cl1":"v1","cl2":"v2","cl3":"v3"},"date2":{"cl1":"va","cl2":"vb","cl3":"vc"}}
 
@@ -46,7 +46,7 @@ def write_weather_dict_to_csv(weather_data):
     fieldnames.extend(weather_data[weather_data.keys()[0]].keys())
 
     listWriter = csv.DictWriter(
-       open('test.csv', 'wb'),
+       open(csv_file_name, 'wb'),
        fieldnames=fieldnames,
        delimiter=',',
        quotechar='|',
@@ -60,12 +60,12 @@ def write_weather_dict_to_csv(weather_data):
     for k in weather_data:
         row = weather_data[k]
         row.update({"date":k})
-        print row
         listWriter.writerow(row)
 
 
-#get daily/hourly data for each day 
-def get_weather_daily_data(date_str):
+#get daily/hourly data for each day  
+# OLD - not working when number of columns changes - in some days they add a column like "Windchill" in 2016/12/31 and it throws an exception because it messes up the fields and xpath_suffixes correlation
+def get_weather_daily_data_old(date_str):
   my_request['url'] = 'https://www.wunderground.com/history/airport/LLBG/{date_str}/DailyHistory.html'.format(date_str=date_str)
   my_request['headers'] = HAR_to_dict(manual_requests[0]['request']['headers'])
   my_request['cookies'] = HAR_to_dict(manual_requests[0]['request']['cookies'])
@@ -88,6 +88,7 @@ def get_weather_daily_data(date_str):
               data[field] = tree.xpath(xpath)[0].text
           except:
               raise
+
       #handle conditions string
       conditions_string = tree.xpath('//*[@id="obsTable"]/tbody/tr[{row}]/td[2]'.format(row=row_num+1))[0].text
       if data['Conditions'] != "Clear":
@@ -98,6 +99,64 @@ def get_weather_daily_data(date_str):
       data['conditions_details'] = {'code': code,'str': conditions_string}
       
       daily_data[data['Time']] = data
+      row_num = row_num + 2
+
+  #calculate conditions average
+  sum = 0
+  len = 0
+  i = 0
+  for time in daily_data.values():
+    i = i +1
+    if time['conditions_details']['code'] is not None: 
+      sum = sum + time['conditions_details']['code']
+      len = len +1
+
+  return sum/len
+
+
+#get daily/hourly data for each day 
+def get_weather_daily_data(date_str):
+  my_request['url'] = 'https://www.wunderground.com/history/airport/LLBG/{date_str}/DailyHistory.html'.format(date_str=date_str)
+  my_request['headers'] = HAR_to_dict(manual_requests[0]['request']['headers'])
+  my_request['cookies'] = HAR_to_dict(manual_requests[0]['request']['cookies'])
+
+  response = requests.get(url=my_request['url'], headers=my_request['headers'], cookies=my_request['cookies'])
+  tree = html.fromstring(response.content)
+
+  #key: time(hour), value: dict of data (see list of fields)
+  daily_data = {}
+  fields = ['Time','Temp','DewPoint','Humidity','Pressure','Visibility','WindDir','WindSpeed','GustSpeed','Precip','Events','Conditions']
+  fields_xpath_suffixes = ['td[1]','td[2]/span/span[1]','td[3]/span/span[1]','td[4]','td[5]/span/span[1]','td[6]','td[7]','td[8]/span[1]/span[1]','td[9]','td[10]','td[11]','td[12]']
+
+
+  fields_titles = [th.text_content().strip() for th in tree.xpath('//*[@id="obsTable"]/thead/tr/th')]
+  fields_xpath_suffixes = ['','td[2]/span/span[1]','td[3]/span/span[1]','td[4]','td[5]/span/span[1]','td[6]','td[7]','td[8]/span[1]/span[1]','td[9]','td[10]','td[11]','td[12]']
+
+  #print [r.text_content().strip() for r in tree.xpath('//*[@id="obsTable"]/tbody/tr[3]/td')]
+  #return
+  #loop over rows
+  row_num=1
+  while(tree.xpath('//*[@id="obsTable"]/tbody/tr[{row_num}]'.format(row_num=row_num))):
+      data = {}
+
+      for idx,field in enumerate(fields_titles):
+        try:
+          xpath = '//*[@id="obsTable"]/tbody/tr[{row}]/td[{col}]/span/span[1]'.format(row=row_num,col=idx+1)
+          data[field] = tree.xpath(xpath)[0].text
+        except:          
+          xpath = '//*[@id="obsTable"]/tbody/tr[{row}]/td[{col}]'.format(row=row_num,col=idx+1)
+          data[field] = tree.xpath(xpath)[0].text
+
+      #handle conditions string
+      conditions_string = tree.xpath('//*[@id="obsTable"]/tbody/tr[{row}]/td[2]'.format(row=row_num+1))[0].text
+      if data['Conditions'] != "Clear":
+        code = handle_conditions_string(conditions_string)
+      else:
+        code = 0
+
+      data['conditions_details'] = {'code': code,'str': conditions_string}
+      
+      daily_data[data[fields_titles[0]]] = data
       row_num = row_num + 2
 
   #calculate conditions average
@@ -147,7 +206,53 @@ def get_weather_monthly_data(month,year):
   return data
 
 
-#get daily data for range of dates
+
+def get_weather_custom_data(start_date,end_date):
+  from time import strptime
+  start_date_str = "{year}/{month}/{day}".format(year=start_date.year,month=start_date.month,day=start_date.day)
+  #my_request['url'] = "https://www.wunderground.com/history/airport/LLBG/{year}/{month}/1/MonthlyHistory.html?&reqdb.zip=&reqdb.magic=&reqdb.wmo=".format(month=month,year=year)
+  my_request['url'] = "https://www.wunderground.com/history/airport/LLBG/{start_date_str}/CustomHistory.html?dayend={end_day}&monthend={end_month}&yearend={end_year}&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=".format(start_date_str=start_date_str,end_year=end_date.year,end_month=end_date.month,end_day=end_date.day)
+  my_request['headers'] = HAR_to_dict(manual_requests[0]['request']['headers'])
+  my_request['cookies'] = HAR_to_dict(manual_requests[0]['request']['cookies'])
+
+  response = requests.get(url=my_request['url'], headers=my_request['headers'], cookies=my_request['cookies'])
+  tree = html.fromstring(response.content)
+ 
+  data = {}
+  fields = ['Day','Temp_H','Temp_A','Temp_M','DewPoint_H','DewPoint_A','DewPoint_M','Humidity_H','Humidity_A','Humidity_M','SeaLevelPress_H','SeaLevelPress_A','SeaLevelPress_M','Visibility_H','Visibility_A','Visibility_M','Wind_H','Wind_A','Wind_M','Precip','Events']
+  #fields_xpath_suffixes = ['td[1]',td[3]/span','td[6]/span','td[9]/span','td[12]/span','td[15]/span','td[18]/span','td[20]/span','td[21]']
+  
+  months_dict = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+  idx = 1
+  curr_month = None
+  curr_year = start_date.year
+  next_year_flag = False
+  while (True):
+    columns = [td.text_content().strip() for td in tree.xpath('//*[@id="obsTable"]/tbody[{row}]/tr/td'.format(row=idx))]
+    if (not columns):
+      break
+
+    #check if its a month row
+    if columns[0] in months_dict.keys():
+      if next_year_flag is True:
+        curr_year = str(int(curr_year) + 1)
+        next_year_flag = False
+      if columns[0] == 'Dec':
+        next_year_flag = True
+      curr_month = months_dict[columns[0]]
+      idx += 1
+      continue
+    
+    date_key = "{year}/{month}/{day}".format(year=curr_year,month=curr_month,day=columns[0])
+    data[date_key] = dict(zip(fields,columns))
+    data[date_key]['CloudsCode'] = get_weather_daily_data(date_key)
+    idx = idx + 1  
+
+  return data
+
+
+
+#get daily data for range of dates - old way - not sure its working
 def get_weather_data(start_date_str,end_date_str):
   end_date_arr = end_date_str.split('/')
   my_request['url'] = "https://www.wunderground.com/history/airport/LLBG/{start_date_str}/CustomHistory.html?dayend={end_day}&monthend={end_month}&yearend={end_year}&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=".format(start_date_str=start_date_str,end_year=end_date_arr[0],end_month=end_date_arr[1],end_day=end_date_arr[2])
@@ -196,36 +301,42 @@ def get_weather_data(start_date_str,end_date_str):
 # MAIN #
 ########
 
+
+
 manual_requests = get_requests_from_HAR_file('HARS/DailyHistory.json')
 my_request = {}
 weather_data = {}
 
 
-start_date = date(2017, 11, 1)
-end_date = date(2017, 12, 2)
+start_date = date(2017, 12, 23)
+end_date = date(2017, 12, 26)
 
 
+weather_data = get_weather_custom_data(start_date,end_date)
+#print json.dumps(weather_data,indent=4)
 
-from dateutil.relativedelta import relativedelta
-date = start_date
-while date < end_date:
-  weather_data.update(get_weather_monthly_data(date.month,date.year))
-  date += relativedelta(months=1)
-
-print json.dumps(weather_data,indent=4)
+write_weather_dict_to_csv(weather_data,'weather_data.csv')
 sys.exit()
 
 
+##get all months data into weather_data
+# from dateutil.relativedelta import relativedelta
+# date = start_date
+# while date < end_date:
+#   weather_data.update(get_weather_monthly_data(date.month,date.year))
+#   date += relativedelta(months=1)
+
+
+##################################################################################
+# I comment this becasue i put the clouds avg cond inside get_weathre_custom_data
+###################################################################################3
 #get daily conditions (for clouds)
-for single_date in daterange(start_date, end_date):
-  date_str = single_date.strftime("%Y/%m/%d")
-  weather_data[date_str] = get_weather_daily_data(date_str)
-
-print json.dumps(weather_data,indent=4)
-sys.exit()
+# for single_date in daterange(start_date, end_date+1):
+#   date_str = single_date.strftime("%Y/%m/%d")
+#   print date_str
+#   weather_data[date_str]['CloudsCode'] = get_weather_daily_data(date_str)
 
 
-#get history data
-get_weather_data("2016/1/3","2017/2/4")
+
 
 

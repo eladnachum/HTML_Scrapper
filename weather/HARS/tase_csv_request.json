@@ -1,0 +1,211 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2017-12-26T07:53:12.314Z",
+        "id": "page_1",
+        "title": "https://www.tase.co.il/Heb/MarketData/Indices/MarketCap/Pages/IndexHistoryData.aspx?Action=3&addTab=&IndexId=137",
+        "pageTimings": {
+          "onContentLoad": 3821.862999990117,
+          "onLoad": 5499.6659999887925
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2017-12-26T07:53:38.066Z",
+        "time": 97.81475100037642,
+        "request": {
+          "method": "GET",
+          "url": "https://www.tase.co.il/_layouts/Tase/images/Hebrew/Logo/virtech/001300.gif",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/_layouts/Tase/images/Hebrew/Logo/virtech/001300.gif"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9,he;q=0.8"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://www.tase.co.il/Heb/Management/Iframes/Pages/vTickerContainer.aspx?iframe=1"
+            },
+            {
+              "name": ":authority",
+              "value": "www.tase.co.il"
+            },
+            {
+              "name": "cookie",
+              "value": "_ga=GA1.3.1507004260.1514240388; _gid=GA1.3.683257617.1514240388; tickerType=2; ASP.NET_SessionId=g1hcdj55ewrnt5vjpvm5uj45; TS01b77ae9_28=0172f06622658561179dd00b37ac43ad8ef93860117810876e4f6c7a1927acc87af3cf12d265d78a3bbab3c3d2129a93bd74bf53e1; incap_ses_455_108069=1AohcJL93Famkf8n5nxQBpH/QVoAAAAATgyryOn+53Eyh0rUVZYSOw==; lbinfo=2; TS01b77ae9=01fbbcea6c5027f3e77dcd04b1d8065375011fe4129c3643986d0eab57318d2212f0a8e0cc7e895afd6dec1ac39cf7954d454a1002565ce10b88ffd78e6993dff38de8c06c1a6678b074cfc068f4addf12569cd9887aaaa0731dfe7868e4a13a255dd3824a; _gat=1"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "g1hcdj55ewrnt5vjpvm5uj45",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "TS01b77ae9",
+              "value": "01fbbcea6c5027f3e77dcd04b1d8065375011fe4129c3643986d0eab57318d2212f0a8e0cc7e895afd6dec1ac39cf7954d454a1002565ce10b88ffd78e6993dff38de8c06c1a6678b074cfc068f4addf12569cd9887aaaa0731dfe7868e4a13a255dd3824a",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "TS01b77ae9_28",
+              "value": "0172f06622658561179dd00b37ac43ad8ef93860117810876e4f6c7a1927acc87af3cf12d265d78a3bbab3c3d2129a93bd74bf53e1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.1507004260.1514240388",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gat",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.3.683257617.1514240388",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "incap_ses_455_108069",
+              "value": "1AohcJL93Famkf8n5nxQBpH/QVoAAAAATgyryOn+53Eyh0rUVZYSOw==",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "lbinfo",
+              "value": "2",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "tickerType",
+              "value": "2",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 26 Dec 2017 07:53:41 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Dec 2014 10:01:07 GMT"
+            },
+            {
+              "name": "x-cdn",
+              "value": "Incapsula"
+            },
+            {
+              "name": "etag",
+              "value": "\"907617e416ed01:0\""
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "x-iinfo",
+              "value": "7-185312551-0 0CNN RT(1514274821195 0) q(0 -1 -1 -1) r(0 -1)"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=86400, public"
+            },
+            {
+              "name": "content-length",
+              "value": "43"
+            },
+            {
+              "name": "expires",
+              "value": "Wed, 27 Dec 2017 07:53:41 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 43,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 163
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 17.705751019530013,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.24799999664540096,
+          "wait": 78.1699999934062,
+          "receive": 3.6909999907948077,
+          "_blocked_queueing": 2.750999992713332
+        },
+        "serverIPAddress": "45.60.54.5",
+        "connection": "1755",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
