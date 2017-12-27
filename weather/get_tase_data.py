@@ -8,10 +8,35 @@ import sys
 import datetime
 from helper import HAR_to_dict
 from helper import get_requests_from_HAR_file
-from datetime import timedelta, date
+from datetime import timedelta, date, datetime
 from dateutil.relativedelta import relativedelta
+from get_weather_data_for_tase import get_weather_custom_data
 
+#key is date (2017/3/14). value is weather data dict. csv created columns are date and all data fields
+def write_tase_dict_to_csv(tase_data_list,csv_file_name):
+    import csv
+    fieldnames= tase_data_list[0].keys()
 
+    listWriter = csv.DictWriter(
+       open(csv_file_name, 'wb'),
+       fieldnames=fieldnames,
+       delimiter=',',
+       quoting=csv.QUOTE_MINIMAL
+    )
+
+    #wrtie the columns names row
+    listWriter.writerow(dict(zip(fieldnames,fieldnames)))
+
+    #write all rows
+    for day in tase_data_list:
+        listWriter.writerow(day)
+
+#when using the function: end_date=pd.datetime.today(), start_date = end_date - get_business_days_delta(NUM_OF_DAYS)
+def get_business_days_delta(delta_days_num):
+  	import pandas as pd
+	from pandas.tseries.offsets import BDay
+	return BDay(int(sys.argv[1]))
+  	
 #output an html with all ISR stock data (not scrapped but can be opened in browser)
 def get_all_stocks_data_html():
 	return requests.get('http://www.tase.co.il/Heb/Management/GeneralPages/_layouts/Tase/ManagementPages/ExcelExport.aspx?sn=none&GridId=33&AddCol=1&Lang=he-IL&CurGuid={26F9CCE6-D184-43C6-BAB9-CF7848987BFF}&action=1&dualTab=&SubAction=0&date=&ExportType=1',verify=False).content
@@ -31,7 +56,7 @@ def get_stock_data_by_dates(stock_id,company_id,from_date,to_date):
 #returns daily TA_125 data from start_date to end_date (implicit)
 def get_TA125_by_dates(start_date,end_date):
 
-	days_count = (end_date - start_date).days
+	days_count = (end_date - start_date).days + 1
 	manual_requests = get_requests_from_HAR_file('HARS/bizportal_HAR.json')
 	my_request = {}
 	my_request['url'] = "http://www.bizportal.co.il/Quote/Transactions/HistoricalRates_AjaxBinding_Read/33333333?startD={s_day}%2F{s_mon}%2F{s_year}&endD={e_day}%2F{e_mon}%2F{e_year}&take={page_size}&skip=0&page=1&pageSize={page_size}&sort%5B0%5D%5Bfield%5D=DealDate&sort%5B0%5D%5Bdir%5D=desc".format(s_year=start_date.year,s_mon='{:02d}'.format(start_date.month),s_day='{:02d}'.format(start_date.day),e_year=end_date.year,e_mon='{:02d}'.format(end_date.month),e_day='{:02d}'.format(end_date.day),page_size=days_count)
@@ -42,13 +67,11 @@ def get_TA125_by_dates(start_date,end_date):
 	response = requests.get(url=my_request['url'], headers=my_request['headers'], cookies=my_request['cookies'], verify=False)
 	json_str_content=response.content.replace('"', '\"')
 	results = json.loads(json_str_content)
-	print results['Errors']
 	if results['Errors'] is None:
 		return results['Data']
 	else:
 		return None
 	
-
 #methods that didn't work
 def testing_tase_data():
 	#####################################################################################################
@@ -105,37 +128,47 @@ def testing_tase_data():
 		
 		idx = idx + 1
 
-#key is date (2017/3/14). value is weather data dict. csv created columns are date and all data fields
-def write_tase_dict_to_csv(tase_data_list,csv_file_name):
-    import csv
-    fieldnames= tase_data_list[0].keys()
-
-    listWriter = csv.DictWriter(
-       open(csv_file_name, 'wb'),
-       fieldnames=fieldnames,
-       delimiter=',',
-       quoting=csv.QUOTE_MINIMAL
-    )
-
-    #wrtie the columns names row
-    listWriter.writerow(dict(zip(fieldnames,fieldnames)))
-
-    #write all rows
-    for day in tase_data_list:
-        listWriter.writerow(day)
-
 
 
 ########
 # MAIN #
 ########
 
-start_date = date(2016, 11, 1)
-end_date = date(2017, 11, 7)
+start_date = date(2017, 07, 20)
+end_date = date(2017, 07, 23)
+delta_flag = False
 
+#change dates if N last days arg was given
+if len(sys.argv) == 2:
+	delta = int(sys.argv[1])
+	delta_flag = True
+	start_date = datetime.now() - timedelta(days=10)
+  	end_date = datetime.now() #- timedelta(days=1)
+  	
+ 	
 #gets data and write it to csv file
 TA_125_data = get_TA125_by_dates(start_date,end_date)
 #print json.dumps(TA_125_data,indent=4)
-write_tase_dict_to_csv(TA_125_data,'tase_test.csv')
+
+
+
+weather_data = get_weather_custom_data(start_date,end_date)
+#print json.dumps(weather_data,indent=4)
+
+
+for day in TA_125_data:
+	#from format: day/mon/year to format year/mon/day
+	d = day['DealDate'].split("/")
+	date_key_for_weather_data = "{year}/{mon}/{day}".format(year=d[2],mon=d[1],day=d[0])
+	day.update(weather_data[date_key_for_weather_data])
+
+print json.dumps(TA_125_data,indent=4)
+
+
+
+if delta_flag:
+	write_tase_dict_to_csv(TA_125_data[:delta],'full_data.csv')
+else:
+	write_tase_dict_to_csv(TA_125_data,'full_data.csv')
 
 

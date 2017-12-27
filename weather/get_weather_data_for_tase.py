@@ -103,6 +103,8 @@ def write_weather_dict_to_csv(weather_data,csv_file_name):
 
 #get daily/hourly data for each day 
 def get_weather_daily_data(date_str):
+  manual_requests = get_requests_from_HAR_file('HARS/DailyHistory.json')
+  my_request={}
   my_request['url'] = 'https://www.wunderground.com/history/airport/LLBG/{date_str}/DailyHistory.html'.format(date_str=date_str)
   my_request['headers'] = HAR_to_dict(manual_requests[0]['request']['headers'])
   my_request['cookies'] = HAR_to_dict(manual_requests[0]['request']['cookies'])
@@ -199,6 +201,8 @@ def get_weather_monthly_data(month,year):
 
 def get_weather_custom_data(start_date,end_date):
   from time import strptime
+  manual_requests = get_requests_from_HAR_file('HARS/DailyHistory.json')
+  my_request={}
   start_date_str = "{year}/{month}/{day}".format(year=start_date.year,month=start_date.month,day=start_date.day)
   #my_request['url'] = "https://www.wunderground.com/history/airport/LLBG/{year}/{month}/1/MonthlyHistory.html?&reqdb.zip=&reqdb.magic=&reqdb.wmo=".format(month=month,year=year)
   my_request['url'] = "https://www.wunderground.com/history/airport/LLBG/{start_date_str}/CustomHistory.html?dayend={end_day}&monthend={end_month}&yearend={end_year}&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=".format(start_date_str=start_date_str,end_year=end_date.year,end_month=end_date.month,end_day=end_date.day)
@@ -248,59 +252,6 @@ def get_weather_custom_data(start_date,end_date):
     idx = idx + 1  
 
   return data
-
-
-
-
-########
-# MAIN #
-########
-
-manual_requests = get_requests_from_HAR_file('HARS/DailyHistory.json')
-my_request = {}
-weather_data = {}
-
-#default values
-start_date = date(2017,07,20)
-end_date = date(2017, 07, 23)
-delta_flag = False
-#change dates if N last days arg was given
-if len(sys.argv) == 2:
-  delta_flag = True
-  delta = int(sys.argv[1])
-  start_date = datetime.now() - timedelta(days=10)
-  end_date = datetime.now() # - timedelta(days=1) #if we don't want the last day
-
-
-weather_data = get_weather_custom_data(start_date,end_date)
-
-for k in weather_data:
-  weather_data[k]['Day'] = k
-
-print json.dumps(weather_data,indent=4)
-
-#write_weather_dict_to_csv(weather_data,'weather_data.csv')
-
-
-
-##get all months data into weather_data
-# from dateutil.relativedelta import relativedelta
-# date = start_date
-# while date < end_date:
-#   weather_data.update(get_weather_monthly_data(date.month,date.year))
-#   date += relativedelta(months=1)
-
-
-##################################################################################
-# I comment this becasue i put the clouds avg cond inside get_weathre_custom_data
-###################################################################################3
-#get daily conditions (for clouds)
-#for single_date in daterange(start_date, end_date):
-#  date_str = single_date.strftime("%Y/%m/%d")
-#   print date_str
-#  get_weather_daily_data(date_str)
-
-
 
 
 
