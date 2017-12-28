@@ -11,6 +11,7 @@ from helper import get_requests_from_HAR_file
 from datetime import timedelta, date, datetime
 from dateutil.relativedelta import relativedelta
 from get_weather_data_for_tase import get_weather_custom_data
+from get_weather_data_for_tase import write_weather_dict_to_csv
 
 #key is date (2017/3/14). value is weather data dict. csv created columns are date and all data fields
 def write_tase_dict_to_csv(tase_data_list,csv_file_name):
@@ -134,17 +135,22 @@ def testing_tase_data():
 # MAIN #
 ########
 
-start_date = date(2016, 12, 20)
-end_date = date(2017, 12, 20)
+start_date = date(2017, 12, 20)
+end_date = date(2017, 12, 21)
+max_days = 10
+
+
+
 delta_flag = False
 
 #change dates if N last days arg was given
 if len(sys.argv) == 2:
 	delta = int(sys.argv[1])
 	delta_flag = True
-	start_date = datetime.now() - timedelta(days=10)
+	start_date = datetime.now() - timedelta(days=max_days)
   	end_date = datetime.now() #- timedelta(days=1)
-  	
+
+
  	
 #gets data and write it to csv file
 TA_125_data = get_TA125_by_dates(start_date,end_date)
