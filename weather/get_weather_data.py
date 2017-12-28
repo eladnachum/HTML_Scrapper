@@ -279,7 +279,7 @@ for k in weather_data:
 
 print json.dumps(weather_data,indent=4)
 
-#write_weather_dict_to_csv(weather_data,'weather_data.csv')
+write_weather_dict_to_csv(weather_data,'weather_data.csv')
 
 
 

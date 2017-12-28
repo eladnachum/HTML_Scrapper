@@ -134,8 +134,8 @@ def testing_tase_data():
 # MAIN #
 ########
 
-start_date = date(2017, 07, 20)
-end_date = date(2017, 07, 23)
+start_date = date(2016, 12, 20)
+end_date = date(2017, 12, 20)
 delta_flag = False
 
 #change dates if N last days arg was given
@@ -149,11 +149,14 @@ if len(sys.argv) == 2:
 #gets data and write it to csv file
 TA_125_data = get_TA125_by_dates(start_date,end_date)
 #print json.dumps(TA_125_data,indent=4)
+write_tase_dict_to_csv(TA_125_data,'tase_data.csv')
+
 
 
 
 weather_data = get_weather_custom_data(start_date,end_date)
 #print json.dumps(weather_data,indent=4)
+write_weather_dict_to_csv(weather_data,'weather_data.csv')
 
 
 for day in TA_125_data:
